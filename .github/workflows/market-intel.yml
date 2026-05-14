@@ -32,6 +32,7 @@ jobs:
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           CLAUDE_MODEL: "claude-sonnet-4-6"
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           source .venv/bin/activate
           python -c "from bot.agents.market_agent import run_market_agent; print('Running agent test...'); report = run_market_agent(); print('Agent output:'); print(report)"
@@ -42,6 +43,7 @@ jobs:
           CLAUDE_MODEL: "claude-sonnet-4-6"
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           source .venv/bin/activate
           python bot/main.py
