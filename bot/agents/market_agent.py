@@ -77,7 +77,7 @@ def run_market_agent():
                 
                 #append the tool call itself
                 messages.append({
-                    "role":"assistenat",
+                    "role":"assistant",
                     "content": [block]
                 })
 
