@@ -20,6 +20,16 @@ def call_claude(prompt: str) -> str:
     # Adjust depending on SDK response shape
     return resp.content[0].text
 
+def post_to_discord(content: str):
+    webhook = os.getenv("DISCORD_WEBHOOK_URL")
+    if not webhook:
+        print("No Discord webhook set.")
+        return
+
+    payload = {"content": content[:1900]}  # Discord limit safety
+    r = requests.post(webhook, json=payload)
+    r.raise_for_status()
+
 def post_to_slack(text: str):
     if not SLACK_WEBHOOK_URL:
         print("No SLACK_WEBHOOK_URL set; skipping Slack.")
@@ -41,7 +51,9 @@ def main():
     save_markdown_report(report_md)
 
     # Optional: send to Slack
-    post_to_slack(report_md[:3500])  # Slack message length safety
+    #post_to_slack(report_md[:3500])  # Slack message length safety
+    # send to discord
+    post_to_discord(report_md)
 
 if __name__ == "__main__":
     main()
