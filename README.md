@@ -71,13 +71,6 @@ You can also run it manually from the **Actions** tab.
 
 ---
 
-## 🧪 Testing the Anthropic API (optional)
-
-The workflow includes a test step that prints the models available to your API key.  
-This helps ensure your Anthropic account has access to the model you want to use.
-
----
-
 ## 📄 Generated Output
 
 Each run produces:
@@ -114,7 +107,3 @@ Daily-Market-Bot/
 
 Pull requests are welcome!  
 Feel free to open issues for improvements, new data sources, or additional output formats.
-
----
-
-If you want, I can also generate a **badges section**, **architecture diagram**, or a **quickstart section** for your README.
