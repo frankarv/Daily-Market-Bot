@@ -1,74 +1,87 @@
 # bot/agents/market_agent.py
 import os
 from anthropic import Anthropic
-from . import tools
+from agents import tools
 
 SYSTEM_PROMPT = """
-You are a disciplined Market Analysis Agent.
+You are a Market Analysis Agent.
 
-Goals:
-- Use the provided tools to fetch real market data.
-- Produce a concise, well-structured daily market report in Markdown.
-- Focus on clarity, key moves, and actionable context.
-- Do NOT invent numbers; rely only on tool outputs.
+Your responsibilities:
+- Decide which tools to call and when.
+- Fetch real market data using tools.
+- Analyze the data.
+- Produce a clean, structured Markdown report.
+- Save it using save_report(markdown).
 
-Required sections in the final report:
-1. Title + date
-2. Market overview (indices)
-3. Sector performance
-4. Notable moves / themes
-5. Brief outlook
-
-You have access to these tools (they are called for you, you only see their JSON results):
-- get_indices()
-- get_sector_performance()
-- save_report(markdown)
-
-You will:
-1) Ask for the data you need.
-2) Analyze it.
-3) Write a final Markdown report.
-4) Call save_report(markdown) once with the final report.
+Rules:
+- Never invent numbers.
+- Only use data returned by tools.
+- You may call tools multiple times.
+- When the report is complete, call save_report(markdown).
 """
 
-def build_client():
-    return Anthropic(api_key=os.environ["CLAUDE_API_KEY"])
+def run_market_agent():
+    client = Anthropic(api_key=os.environ["CLAUDE_API_KEY"])
 
-def run_market_agent() -> str:
-    """
-    Simple agent-style flow:
-    1) Fetch indices + sectors via Python tools.
-    2) Send everything to Claude in one structured message.
-    3) Get back a final Markdown report.
-    4) Save it to market-report.md.
-    """
-    client = build_client()
+    tool_list = [
+        {
+            "name": "get_indices",
+            "description": "Fetch major index data",
+            "input_schema": {"type": "object", "properties": {}},
+        },
+        {
+            "name": "get_sector_performance",
+            "description": "Fetch sector ETF performance",
+            "input_schema": {"type": "object", "properties": {}},
+        },
+        {
+            "name": "save_report",
+            "description": "Save the final Markdown report",
+            "input_schema": {
+                "type": "object",
+                "properties": {"markdown": {"type": "string"}},
+                "required": ["markdown"],
+            },
+        },
+    ]
 
-    indices = tools.get_indices()
-    sectors = tools.get_sector_performance()
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": "Begin today's market analysis."}
+    ]
 
-    user_content = f"""
-You are given fresh market data.
+    while True:
+        response = client.messages.create(
+            model=os.environ.get("CLAUDE_MODEL", "claude-3-haiku-20240307"),
+            max_tokens=2000,
+            tools=tool_list,
+            messages=messages,
+        )
 
-[INDICES]
-{indices}
+        msg = response.content[0]
 
-[SECTOR_PERFORMANCE]
-{sectors}
+        # Tool call
+        if msg.type == "tool_use":
+            tool_name = msg.name
+            tool_input = msg.input
 
-Using ONLY this data, write the full daily market report in Markdown.
-Remember the required sections from the system prompt.
-"""
+            if tool_name == "get_indices":
+                result = tools.get_indices()
+            elif tool_name == "get_sector_performance":
+                result = tools.get_sector_performance()
+            elif tool_name == "save_report":
+                result = tools.save_report(tool_input["markdown"])
+                return tool_input["markdown"]
 
-    resp = client.messages.create(
-        model=os.environ.get("CLAUDE_MODEL", "claude-3-haiku-20240307"),
-        max_tokens=2000,
-        system=SYSTEM_PROMPT,
-        messages=[
-            {"role": "user", "content": user_content}
-        ],
-    )
+            messages.append(msg)
+            messages.append({
+                "role": "tool",
+                "tool_use_id": msg.id,
+                "content": result
+            })
+            continue
 
-    report_md = resp.content[0].text
-    tools.save_report(report_md)
-    return report_md
+        # Normal text (rare)
+        if msg.type == "text":
+            messages.append({"role": "assistant", "content": msg.text})
+            continue

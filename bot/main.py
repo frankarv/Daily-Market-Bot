@@ -54,14 +54,15 @@ def main():
     # Save to file (can be committed by the workflow if you want)
     save_markdown_report(report_md)
     
-    # run market agent
-    report_md = run_market_agent()
-    print("Generated report:\n")
-    print(report_md)
-
     # If you already have Slack/Discord posting logic, call it here
     # post_to_slack(report_md)
     post_to_discord(report_md)
+
+    # run market agent
+    report = run_market_agent()
+    print("Generated report:\n")
+    print(report)
+
 
 if __name__ == "__main__":
     main()
