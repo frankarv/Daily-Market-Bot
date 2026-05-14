@@ -1,0 +1,5 @@
+yfinance
+requests
+python-dotenv
+# plus the Claude Agent/SDK package name you use, e.g.:
+anthropic

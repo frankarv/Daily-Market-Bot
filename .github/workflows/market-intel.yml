@@ -1,0 +1,47 @@
+name: Daily Market Intelligence
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"  # 13:00 UTC ≈ 6:00 AM MST (Mon–Fri)
+  workflow_dispatch: {}
+
+jobs:
+  market-intel:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --upgrade pip
+          pip install -r bot/requirements.txt
+
+      - name: Run market bot
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_MODEL: "claude-3-5-sonnet-20241022"
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          source .venv/bin/activate
+          python bot/main.py
+
+      # Optional: commit the generated report back to the repo
+      - name: Commit report
+        if: always()
+        run: |
+          if [ -f market-report.md ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add market-report.md
+            git commit -m "Daily market report" || echo "No changes to commit"
+            git push || echo "No push (likely from PR or no permissions)"
+          fi
