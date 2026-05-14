@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 13 * * 1-5"  # 13:00 UTC ≈ 6:00 AM MST (Mon–Fri)
+    - cron: "0 13 * * 1-5"   # 13:00 UTC ≈ 6:00 AM MST (Mon–Fri)
   workflow_dispatch: {}
 
 jobs:
@@ -28,10 +28,26 @@ jobs:
           pip install --upgrade pip
           pip install -r bot/requirements.txt
 
-      - name: Run market bot
+      # Optional but HIGHLY recommended during development
+      - name: Test Market Analysis Agent
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           CLAUDE_MODEL: "claude-sonnet-4-6"
+        run: |
+          source .venv/bin/activate
+          python - << 'EOF'
+          from agents.market_agent import run_market_agent
+          print("Running agent test...")
+          report = run_market_agent()
+          print("Agent output:")
+          print(report)
+          EOF
+
+      - name: Run Market Intelligence Agent
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_MODEL: "claude-sonnet-4-6"
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           source .venv/bin/activate
@@ -41,8 +57,7 @@ jobs:
         run: ls -al
 
 
-      # Optional: commit the generated report back to the repo
-      - name: Commit report
+      - name: Commit market report
         if: always()
         run: |
           if [ -f market-report.md ]; then
@@ -50,5 +65,7 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add market-report.md
             git commit -m "Daily market report" || echo "No changes to commit"
-            git push || echo "No push (likely from PR or no permissions)"
+            git push || echo "No push (no changes or insufficient permissions)"
+          else
+            echo "market-report.md not found — skipping commit"
           fi
