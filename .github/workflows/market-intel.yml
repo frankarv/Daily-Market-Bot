@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 13 * * 1-5"   # 13:00 UTC ≈ 6:00 AM MST (Mon–Fri)
+    - cron: "0 13 * * 1-5"
   workflow_dispatch: {}
 
 jobs:
@@ -28,14 +28,13 @@ jobs:
           pip install --upgrade pip
           pip install -r bot/requirements.txt
 
-      # Optional but HIGHLY recommended during development
       - name: Test Market Analysis Agent
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           CLAUDE_MODEL: "claude-sonnet-4-6"
         run: |
           source .venv/bin/activate
-          python - << 'EOF' from bot.agents.market_agent import run_market_agent print("Running agent test...") report = run_market_agent() print("Agent output:") print(report) EOF
+          python -c "from bot.agents.market_agent import run_market_agent; print('Running agent test...'); report = run_market_agent(); print('Agent output:'); print(report)"
 
       - name: Run Market Intelligence Agent
         env:
@@ -49,7 +48,6 @@ jobs:
 
       - name: Debug files
         run: ls -al
-
 
       - name: Commit market report
         if: always()
