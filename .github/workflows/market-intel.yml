@@ -25,8 +25,14 @@ jobs:
           pip install --upgrade pip
           pip install -r bot/requirements.txt
 
-      - name: Test Python code
+      - name: Run market bot
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          #CLAUDE_MODEL: "claude-4-6-sonnet-latest"
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
+          source .venv/bin/activate
+          # python bot/main.py
           python - << 'EOF'
           from anthropic import Anthropic
           import os
@@ -37,18 +43,8 @@ jobs:
           for m in models.data:
              print("-", m.id)
           EOF
-             env:
-                CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
 
 
-      - name: Run market bot
-        env:
-          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-          CLAUDE_MODEL: "claude-4-6-sonnet-latest"
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          source .venv/bin/activate
-          python bot/main.py
 
       # Optional: commit the generated report back to the repo
       - name: Commit report
