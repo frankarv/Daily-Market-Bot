@@ -1,5 +1,6 @@
 # bot/agents/market_agent.py
 import os
+import json
 from anthropic import Anthropic
 from bot.agents import tools
 
@@ -47,7 +48,7 @@ def run_market_agent():
 
     messages = [
         {
-            "role": "user", 
+            "role": "user",
             "content": "Begin today's market analysis."
         }
     ]
@@ -61,12 +62,17 @@ def run_market_agent():
             messages=messages,
         )
 
+        # Claude 3 returns a list of content blocks
         for block in response.content:
-            # Tool call
+
+            # ---------------------------------------------------------
+            # TOOL CALL
+            # ---------------------------------------------------------
             if block.type == "tool_use":
                 tool_name = block.name
                 tool_input = block.input
 
+                # Execute the tool
                 if tool_name == "get_indices":
                     result = tools.get_indices()
                 elif tool_name == "get_sector_performance":
@@ -74,24 +80,36 @@ def run_market_agent():
                 elif tool_name == "save_report":
                     result = tools.save_report(tool_input["markdown"])
                     return tool_input["markdown"]
-                
-                #append the tool call itself
-                messages.append({
-                    "role":"assistant",
-                    "content": [block]
-                })
 
+                # Echo the tool call back to Claude
                 messages.append({
                     "role": "assistant",
-                    "content": [ {
-                        "type": "tool_result",
-                        "tool_use_id": block.id,
-                        "content": result
-                    }]
+                    "content": [block]   # must be a list of content blocks
                 })
+
+                # Convert tool result to JSON-safe string
+                result_str = json.dumps(result)
+
+                # Send tool result back to Claude
+                messages.append({
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "tool_result",
+                            "tool_use_id": block.id,
+                            "content": result_str
+                        }
+                    ]
+                })
+
                 continue
 
-            # Normal text (rare)
+            # ---------------------------------------------------------
+            # NORMAL ASSISTANT TEXT
+            # ---------------------------------------------------------
             if block.type == "text":
-                messages.append({"role": "assistant", "content": block.text})
+                messages.append({
+                    "role": "assistant",
+                    "content": block.text
+                })
                 continue
