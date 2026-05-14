@@ -1,6 +1,5 @@
 # bot/agents/market_agent.py
 import os
-import json
 from anthropic import Anthropic
 from bot.agents import tools
 
@@ -47,10 +46,8 @@ def run_market_agent():
     ]
 
     messages = [
-        {
-            "role": "user",
-            "content": "Begin today's market analysis."
-        }
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": "Begin today's market analysis."}
     ]
 
     while True:
@@ -58,11 +55,9 @@ def run_market_agent():
             model=os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6"),
             max_tokens=2000,
             tools=tool_list,
-            system=SYSTEM_PROMPT,
             messages=messages,
         )
 
-        # Claude 3 returns a list of content blocks
         for block in response.content:
 
             # ---------------------------------------------------------
@@ -72,34 +67,20 @@ def run_market_agent():
                 tool_name = block.name
                 tool_input = block.input
 
-                # Execute the tool
+                # Execute tool
                 if tool_name == "get_indices":
                     result = tools.get_indices()
                 elif tool_name == "get_sector_performance":
                     result = tools.get_sector_performance()
                 elif tool_name == "save_report":
-                    result = tools.save_report(tool_input["markdown"])
+                    tools.save_report(tool_input["markdown"])
                     return tool_input["markdown"]
 
-                # Echo the tool call back to Claude
+                # Append tool result (legacy Claude format)
                 messages.append({
-                    "role": "assistant",
-                    "content": [block]   # must be a list of content blocks
-                })
-
-                # Convert tool result to JSON-safe string
-                result_str = json.dumps(result)
-
-                # Send tool result back to Claude
-                messages.append({
-                    "role": "assistant",
-                    "content": [
-                        {
-                            "type": "tool_result",
-                            "tool_use_id": block.id,
-                            "content": result_str
-                        }
-                    ]
+                    "role": "tool",
+                    "tool_use_id": block.id,
+                    "content": result
                 })
 
                 continue
