@@ -61,30 +61,29 @@ def run_market_agent():
             messages=messages,
         )
 
-        msg = response.content[0]
+        for block in response.content:
+            # Tool call
+            if block.type == "tool_use":
+                tool_name = msg.name
+                tool_input = msg.input
 
-        # Tool call
-        if msg.type == "tool_use":
-            tool_name = msg.name
-            tool_input = msg.input
+                if tool_name == "get_indices":
+                    result = tools.get_indices()
+                elif tool_name == "get_sector_performance":
+                    result = tools.get_sector_performance()
+                elif tool_name == "save_report":
+                    result = tools.save_report(tool_input["markdown"])
+                    return tool_input["markdown"]
 
-            if tool_name == "get_indices":
-                result = tools.get_indices()
-            elif tool_name == "get_sector_performance":
-                result = tools.get_sector_performance()
-            elif tool_name == "save_report":
-                result = tools.save_report(tool_input["markdown"])
-                return tool_input["markdown"]
+                messages.append(msg)
+                messages.append({
+                    "role": "tool",
+                    "tool_use_id": block.id,
+                    "content": result
+                })
+                continue
 
-            messages.append(msg)
-            messages.append({
-                "role": "tool",
-                "tool_use_id": msg.id,
-                "content": result
-            })
-            continue
-
-        # Normal text (rare)
-        if msg.type == "text":
-            messages.append({"role": "assistant", "content": msg.text})
-            continue
+            # Normal text (rare)
+            if block.type == "text":
+                messages.append({"role": "assistant", "content": block.text})
+                continue
