@@ -74,12 +74,20 @@ def run_market_agent():
                 elif tool_name == "save_report":
                     result = tools.save_report(tool_input["markdown"])
                     return tool_input["markdown"]
-
-                messages.append(block)
+                
+                #append the tool call itself
                 messages.append({
-                    "role": "tool",
-                    "tool_use_id": block.id,
-                    "content": result
+                    "role":"assistenat",
+                    "content": [block]
+                })
+
+                messages.append({
+                    "role": "assistant",
+                    "content": [ {
+                        "type": "tool_result",
+                        "tool_use_id": block.id,
+                        "content": result
+                    }]
                 })
                 continue
 
