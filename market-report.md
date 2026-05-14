@@ -1,56 +1,61 @@
-# Market Snapshot — May 14, 2026
+# 📊 Market Snapshot — May 14, 2026
 
 ---
 
-## TL;DR
-Markets closed broadly higher with a clear **risk-on** tone as all major indices advanced, led by the Nasdaq's 1.09% gain. The VIX held relatively subdued near 17.83, signaling contained anxiety despite recent volatility. The key divergence to watch is the **Russell 2000's underperformance**, suggesting risk appetite remains selective and tilted toward large-cap growth.
+## ⚡ TL;DR
+Markets closed broadly higher in a clear **risk-on session**, with all major indices posting solid gains led by the Nasdaq (+1.10%). The VIX remains subdued near 17.82, confirming low near-term fear and a constructive sentiment backdrop. The only mild caution flag is the **Russell 2000's relative underperformance**, suggesting small-cap conviction lags behind large-cap momentum.
 
 ---
 
-## 1. Overall Market Tone: 🟢 Risk-On
+## 1. 🌡️ Overall Market Tone: **Risk-On**
 
-The session carried a constructive, risk-on posture across the board. All four major equity indices closed in positive territory, momentum was concentrated in technology and large-cap names, and the fear gauge (VIX) remained well off stressed levels. Investor positioning appears tilted toward offense, though the muted small-cap participation introduces a note of caution about the breadth and durability of the rally.
-
----
-
-## 2. Index-by-Index Commentary
-
-### 📈 S&P 500 — 7,515.32 (+71.07 / +0.95%)
-A solid, broad-based gain for the large-cap benchmark. The S&P 500 clearing the 7,500 level is a psychologically significant milestone and reinforces the near-term bullish trend. Breadth across sectors appears healthy enough to support the move, though the index remains sensitive to macro catalysts (rates, earnings guidance, geopolitical developments).
+The tape is unambiguously constructive. Broad participation across large-cap growth (Nasdaq), blue chips (Dow), and the benchmark (S&P 500), combined with a flat-to-declining VIX, paints a classic **risk-on** environment. Investors are leaning into equities with confidence, and there is no visible flight to safety or defensive rotation evident in this snapshot.
 
 ---
 
-### 📈 Nasdaq — 26,690.32 (+287.98 / +1.09%)
-The **day's standout performer**, confirming that mega-cap technology and growth stocks are driving this leg higher. The Nasdaq's outperformance relative to the Dow and S&P 500 signals that investors are reaching for higher-beta, longer-duration assets — a classic risk-on rotation. Watch for whether this momentum is concentrated in a handful of AI/tech names or more broadly distributed.
+## 2. 📈 Index-by-Index Commentary
+
+### 🔵 S&P 500 — 7,515.28 (+0.95%)
+A strong broad-market advance. The S&P 500 gaining nearly **+1%** in a single session reflects wide participation across sectors rather than a narrow, momentum-driven spike. At 7,515, the index continues to reflect elevated valuations relative to historical norms, meaning any macro shock carries outsized downside risk — but for now, bulls are firmly in control.
 
 ---
 
-### 📈 Dow Jones — 50,176.28 (+483.08 / +0.97%)
-The Dow crossing and holding **above 50,000** is a headline-grabbing level. The near 1% gain reflects strength in blue-chip industrials and financials, which often participate when macro confidence is rising. The Dow's performance roughly in line with the S&P 500 suggests this isn't purely a tech-driven story at the index level.
+### 🟢 Nasdaq — 26,692.44 (+1.10%)
+The **session leader** among major indices. The Nasdaq's outperformance signals that growth and technology names are driving the rally — consistent with a risk-on, liquidity-friendly environment. This also suggests the market is either comfortable with the current rate environment or pricing in a more dovish forward path. Watch for concentration risk if mega-cap tech is doing the heavy lifting.
 
 ---
 
-### 📈 Russell 2000 — 2,861.46 (+17.53 / +0.62%)
-The small-cap index is **the laggard of the session**, gaining only 0.62% versus the Nasdaq's 1.09% — a notable gap. Small caps are more sensitive to domestic economic conditions, credit availability, and interest rate levels. The relative underperformance suggests the market is not fully embracing a "all-clear" macro environment, and investors may still be cautious about rate-sensitive, lower-quality balance sheets that populate the Russell 2000.
+### 🔵 Dow Jones — 50,191.54 (+1.00%)
+A psychologically significant close **above 50,000**, adding to the bullish narrative. The Dow's +1% gain indicates that traditional, value-oriented blue chips are participating alongside growth, which adds **breadth credibility** to the rally. This is not a narrow tech-only move — the Dow's strength confirms cyclical and industrial confidence as well.
 
 ---
 
-### 😐 VIX — 17.83 (-0.04 / -0.22%)
-The VIX edged marginally lower and remains in the **low-to-mid 17 range** — elevated compared to the sub-15 complacency levels seen in calmer regimes, but well below the stress thresholds of 25–30+. This reading implies the market is pricing in *moderate* uncertainty, not fear. The fact that VIX didn't spike on a strong up-day is a mild positive, though a VIX stubbornly above 17 on a rally day suggests some hedging activity or macro overhang persists.
+### 🟡 Russell 2000 — 2,864.39 (+0.72%)
+The **relative laggard** of the session. While still positive, the Russell 2000's +0.72% gain meaningfully trails the other indices. Small-cap underperformance can signal:
+- Lingering concerns about **domestic economic growth**
+- **Credit/financing sensitivity** — small caps are more exposed to higher-for-longer interest rates
+- A preference for the perceived safety of large-cap balance sheets
+
+This divergence is worth monitoring; historically, durable bull markets benefit from small-cap confirmation.
 
 ---
 
-## 3. Notable Divergences & Risk Signals
+### 🟠 VIX — 17.82 (-0.05 / -0.28%)
+The fear gauge is **calm and essentially unchanged**, hovering in the mid-17s. This is below the long-run average (~20) and well clear of stress thresholds (>25–30). A flat VIX on a +1% up day is normal and healthy — it signals that today's gains are being absorbed without forced short-covering or panic buying. **No systemic fear is being priced in.**
+
+---
+
+## 3. ⚠️ Notable Divergences & Risk Signals
 
 | Signal | Observation | Implication |
 |---|---|---|
-| 🔶 **Nasdaq vs. Russell 2000 Gap** | +1.09% vs. +0.62% | Rally is large-cap/tech concentrated; limited breadth |
-| 🔶 **VIX Holding Above 17** | Barely moved on a risk-on day | Residual hedging demand; macro uncertainty not fully priced out |
-| 🟢 **Dow Above 50K** | Psychological support confirmed | Positive sentiment signal for institutional flows |
-| 🟡 **Small-Cap Lag** | Russell underperforming for second consecutive session (implied) | Rate and credit concerns linger; domestic growth outlook mixed |
+| 📉 **Russell 2000 Lag** | +0.72% vs. Nasdaq's +1.10% | Small-cap hesitation; potential growth/credit concern |
+| 📊 **Nasdaq Leadership** | Tech leading the charge | Possible narrow breadth risk if mega-caps dominate |
+| 😶 **VIX Flatness** | Barely moved on up day | Complacency could be building at these index levels |
+| 🏦 **Dow > 50,000** | Milestone close | Sentiment boost, but round numbers can attract profit-taking |
 
-> **Key Risk to Monitor:** If the Nasdaq continues to diverge sharply from the Russell 2000, it may signal that the rally is narrowing — historically a precursor to broader consolidation or a rotation-driven correction. A VIX move back above **20** would flip the near-term tone defensive.
+> **Key Risk to Watch:** If the Russell 2000 continues to diverge negatively while large caps push higher, it may signal that the rally is becoming increasingly **top-heavy** — a classic late-cycle warning sign.
 
 ---
 
-*Data as of May 14, 2026, market close. This is analytical commentary, not investment advice.*
+*Data as of May 14, 2026, 16:07 UTC. For informational purposes only; not investment advice.*
