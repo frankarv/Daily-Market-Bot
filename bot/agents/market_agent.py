@@ -64,8 +64,8 @@ def run_market_agent():
         for block in response.content:
             # Tool call
             if block.type == "tool_use":
-                tool_name = msg.name
-                tool_input = msg.input
+                tool_name = block.name
+                tool_input = block.input
 
                 if tool_name == "get_indices":
                     result = tools.get_indices()
@@ -75,7 +75,7 @@ def run_market_agent():
                     result = tools.save_report(tool_input["markdown"])
                     return tool_input["markdown"]
 
-                messages.append(msg)
+                messages.append(block)
                 messages.append({
                     "role": "tool",
                     "tool_use_id": block.id,
