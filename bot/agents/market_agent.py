@@ -46,15 +46,18 @@ def run_market_agent():
     ]
 
     messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": "Begin today's market analysis."}
+        {
+            "role": "user", 
+            "content": "Begin today's market analysis."
+        }
     ]
 
     while True:
         response = client.messages.create(
-            model=os.environ.get("CLAUDE_MODEL", "claude-3-haiku-20240307"),
+            model=os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6"),
             max_tokens=2000,
             tools=tool_list,
+            system=SYSTEM_PROMPT,
             messages=messages,
         )
 
