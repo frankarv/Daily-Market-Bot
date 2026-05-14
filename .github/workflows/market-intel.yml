@@ -36,12 +36,12 @@ jobs:
         run: |
           source .venv/bin/activate
           python - << 'EOF'
-          from bot.agents.market_agent import run_market_agent
-          print("Running agent test...")
-          report = run_market_agent()
-          print("Agent output:")
-          print(report)
-          EOF
+from bot.agents.market_agent import run_market_agent
+print("Running agent test...")
+report = run_market_agent()
+print("Agent output:")
+print(report)
+EOF
 
       - name: Run Market Intelligence Agent
         env:
