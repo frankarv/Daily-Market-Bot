@@ -1,7 +1,7 @@
 # bot/agents/market_agent.py
 import os
 from anthropic import Anthropic
-from agents import tools
+from bot.agents import tools
 
 SYSTEM_PROMPT = """
 You are a Market Analysis Agent.
