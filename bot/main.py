@@ -8,7 +8,7 @@ import requests
 from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6")
-SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")  # optional
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")  # optional
 
 def call_claude(prompt: str) -> str:
     client = Anthropic(api_key=os.environ["CLAUDE_API_KEY"])
@@ -49,7 +49,6 @@ def main():
 
     # Save to file (can be committed by the workflow if you want)
     save_markdown_report(report_md)
-
     # Optional: send to Slack
     #post_to_slack(report_md[:3500])  # Slack message length safety
     # send to discord
