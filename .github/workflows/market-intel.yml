@@ -28,23 +28,11 @@ jobs:
       - name: Run market bot
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-          #CLAUDE_MODEL: "claude-4-6-sonnet-latest"
+          CLAUDE_MODEL: "claude-sonnet-4-6"
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           source .venv/bin/activate
-          # python bot/main.py
-          python - << 'EOF'
-          from anthropic import Anthropic
-          import os
-          client = Anthropic(api_key=os.environ["CLAUDE_API_KEY"])
-          models = client.models.list()
-
-          print("Available models:")
-          for m in models.data:
-             print("-", m.id)
-          EOF
-
-
+          python bot/main.py
 
       # Optional: commit the generated report back to the repo
       - name: Commit report

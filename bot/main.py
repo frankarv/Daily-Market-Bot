@@ -7,7 +7,7 @@ import requests
 # Example using anthropic-style client; adjust to your actual Claude SDK.
 from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
-CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-4-6-sonnet-latest")
+CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6")
 SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")  # optional
 
 def call_claude(prompt: str) -> str:
