@@ -1,5 +1,6 @@
 # bot/agents/market_agent.py
 import os
+import json
 from anthropic import Anthropic
 from bot.agents import tools
 
@@ -46,8 +47,15 @@ def run_market_agent():
     ]
 
     messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": "Begin today's market analysis."}
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Begin today's market analysis."
+                }
+            ],
+        }
     ]
 
     while True:
@@ -55,19 +63,19 @@ def run_market_agent():
             model=os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6"),
             max_tokens=2000,
             tools=tool_list,
+            system=SYSTEM_PROMPT,
             messages=messages,
         )
 
         for block in response.content:
-
             # ---------------------------------------------------------
-            # TOOL CALL
+            # TOOL CALL (assistant -> tool_use block)
             # ---------------------------------------------------------
             if block.type == "tool_use":
                 tool_name = block.name
                 tool_input = block.input
 
-                # Execute tool
+                # Run the corresponding Python tool
                 if tool_name == "get_indices":
                     result = tools.get_indices()
                 elif tool_name == "get_sector_performance":
@@ -75,22 +83,38 @@ def run_market_agent():
                 elif tool_name == "save_report":
                     tools.save_report(tool_input["markdown"])
                     return tool_input["markdown"]
+                else:
+                    result = {"error": f"Unknown tool: {tool_name}"}
 
-                # Append tool result (legacy Claude format)
-                messages.append({
-                    "role": "tool",
-                    "tool_use_id": block.id,
-                    "content": result
-                })
-
-                continue
-
-            # ---------------------------------------------------------
-            # NORMAL ASSISTANT TEXT
-            # ---------------------------------------------------------
-            if block.type == "text":
+                # Assistant message that contains the tool_use block
                 messages.append({
                     "role": "assistant",
-                    "content": block.text
+                    "content": [block],
                 })
-                continue
+
+                # User message that returns the tool_result (Claude 3/4 rule)
+                result_str = json.dumps(result)
+                messages.append({
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "tool_result",
+                            "tool_use_id": block.id,
+                            "content": result_str,
+                        }
+                    ],
+                })
+
+            # ---------------------------------------------------------
+            # NORMAL ASSISTANT TEXT (assistant -> text block)
+            # ---------------------------------------------------------
+            elif block.type == "text":
+                messages.append({
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": block.text,
+                        }
+                    ],
+                })
