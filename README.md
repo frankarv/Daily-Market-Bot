@@ -1,8 +1,3 @@
-Here’s a clean, polished **README.md write‑up** you can paste directly into your repo.  
-It explains what the bot does, how it runs, and how to configure it — without exposing secrets.
-
----
-
 # 📈 Daily Market Intelligence Bot
 
 The **Daily Market Intelligence Bot** is an automated GitHub Actions workflow that generates a concise, AI‑powered market summary every weekday morning. It fetches live market data, sends it to Claude for analysis, and posts the final report to your preferred channel (Discord or Slack).
