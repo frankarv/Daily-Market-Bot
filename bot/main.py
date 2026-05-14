@@ -1,3 +1,4 @@
+# bot/main.py
 import os
 import json
 from market_data import fetch_index_snapshot
@@ -6,6 +7,7 @@ import requests
 
 # Example using anthropic-style client; adjust to your actual Claude SDK.
 from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
+from agents.market_agent import run_market_agent
 
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6")
 #SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")  # optional
@@ -44,15 +46,21 @@ def save_markdown_report(report: str, path: str = "market-report.md"):
         f.write(report)
 
 def main():
+    # run workflow bot
     market_data = fetch_index_snapshot()
     prompt = build_market_prompt(json.dumps(market_data, indent=2))
     report_md = call_claude(prompt)
-
+    
     # Save to file (can be committed by the workflow if you want)
     save_markdown_report(report_md)
-    # Optional: send to Slack
-    #post_to_slack(report_md[:3500])  # Slack message length safety
-    # send to discord
+    
+    # run market agent
+    report_md = run_market_agent()
+    print("Generated report:\n")
+    print(report_md)
+
+    # If you already have Slack/Discord posting logic, call it here
+    # post_to_slack(report_md)
     post_to_discord(report_md)
 
 if __name__ == "__main__":
