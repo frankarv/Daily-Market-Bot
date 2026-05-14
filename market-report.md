@@ -1,57 +1,61 @@
-# 📊 Market Snapshot — May 14, 2026
+# 📊 Daily Market Analysis Report
+**As of:** May 14, 2026 — 8:42 PM UTC
 
 ---
 
-## ⚡ TL;DR
-Markets closed broadly higher in a clear **risk-on session**, with all four major indices posting solid gains led by the Nasdaq (+0.93%). Volatility continued to compress, with the VIX sliding below 18 — a signal of growing investor complacency or genuine confidence. Breadth was healthy with small-caps participating, though no single index dramatically outpaced the others, suggesting an orderly, broad-based advance.
+## 🏦 Major Indices
+
+| Index | Symbol | Closing Price |
+|-------|--------|--------------|
+| S&P 500 | ^GSPC | 7,501.24 |
+| Nasdaq 100 | ^NDX | 29,580.30 |
+| Dow Jones Industrial Average | ^DJI | 50,063.46 |
+| Russell 2000 | ^RUT | 2,863.09 |
+
+> **Milestone Watch:** The Dow Jones Industrial Average closed above the **50,000** mark, a significant psychological level. The S&P 500 also sits at elevated levels above 7,500.
 
 ---
 
-## 🌡️ Overall Market Tone: **Risk-On** ✅
+## 🗂️ Sector ETF Performance (1-Day % Change)
 
-The tape tells a straightforward story today: equities up, volatility down. There are no meaningful cross-asset distress signals in this snapshot. Participation across large-cap growth (Nasdaq), blue chips (Dow), and small-caps (Russell 2000) indicates **broad market conviction** rather than a narrow, momentum-driven squeeze. This is the hallmark of a healthy risk-on session.
-
----
-
-## 📈 Index-by-Index Commentary
-
-### 🔵 S&P 500 — 7,497.58 (+53.33 / +0.72%)
-The benchmark index continues its grind higher, now tantalizingly close to the **7,500 psychological resistance level**. A clean break and close above that round number in the coming sessions would be technically significant and could attract fresh momentum buying. Today's gain was solid but measured — not euphoric — which is constructive.
-
----
-
-### 🟢 Nasdaq — 26,648.43 (+246.09 / +0.93%)
-The tech-heavy index led the pack today, outperforming the S&P 500 by ~21 basis points. This suggests **growth and technology names** were the primary driver of today's rally — consistent with a low-rate or rate-stability narrative. The Nasdaq's relative strength is a key risk-on indicator; when growth leads, it reflects appetite for longer-duration, higher-risk assets.
-
----
-
-### 🔵 Dow Jones — 49,986.91 (+293.71 / +0.59%)
-The Dow is **knocking on the door of 50,000** — a major psychological milestone. At just $13 away, expect significant media attention and potential short-term resistance at that level. The Dow's underperformance relative to the Nasdaq (+0.59% vs. +0.93%) is typical and not a concern — it simply reflects the Dow's heavier weighting toward industrials and financials vs. mega-cap tech.
+| Sector | Symbol | 1-Day Change |
+|--------|--------|-------------|
+| 🟢 Technology | XLK | +1.50% |
+| 🟢 Energy | XLE | +0.76% |
+| 🟢 Financials | XLF | +0.59% |
+| 🟢 Utilities | XLU | +0.51% |
+| 🟢 Industrials | XLI | +0.51% |
+| 🟢 Consumer Staples | XLP | +0.31% |
+| 🟢 Communication Services | XLC | +0.30% |
+| 🔴 Consumer Discretionary | XLY | -0.04% |
+| 🔴 Health Care | XLV | -0.05% |
+| 🔴 Real Estate | XLRE | -0.68% |
+| 🔴 Materials | XLB | -0.75% |
 
 ---
 
-### 🟡 Russell 2000 — 2,867.17 (+23.24 / +0.82%)
-Small-caps outperformed the S&P 500 today (+0.82% vs. +0.72%), which is an **encouraging risk-on breadth signal**. Small-caps are typically more sensitive to domestic economic conditions and credit availability. Their participation suggests the rally isn't solely driven by mega-cap index heavyweights — a sign of **healthier, more durable market internals**.
+## 📈 Sector Analysis
+
+### Top Performers
+- **Technology (XLK) +1.50%** — The clear leader of the day, driving broad market strength. Tech continues to attract capital amid strong momentum.
+- **Energy (XLE) +0.76%** — A solid session for energy, suggesting resilience in commodity-linked equities.
+- **Financials (XLF) +0.59%** — Financial stocks gained, potentially supported by the elevated index levels signaling a healthy risk-on environment.
+
+### Laggards
+- **Materials (XLB) -0.75%** — The weakest sector of the day, potentially reflecting concerns about global demand or commodity pricing pressures.
+- **Real Estate (XLRE) -0.68%** — Real estate underperformed, which may reflect sensitivity to interest rate expectations.
+- **Health Care (XLV) -0.05%** and **Consumer Discretionary (XLY) -0.04%** — Nearly flat, with marginal declines suggesting indecision in defensive and consumer spending plays.
 
 ---
 
-### 🔴 VIX — 17.70 (-0.17 / -0.95%)
-The "fear gauge" is drifting lower and now sits comfortably in the **mid-to-low-17 range**. Historically, a VIX below 20 indicates a relatively calm market environment. The continued compression here supports the risk-on narrative. However, it's worth monitoring: **VIX below 15 would signal potential complacency**, and any macro surprise (e.g., inflation data, geopolitical shock) could cause a sharp mean-reversion spike.
+## 🔍 Key Takeaways
+
+1. **Risk-On Tone:** 7 of 11 sectors closed in positive territory, with the broad market showing a constructive, risk-on bias.
+2. **Tech Leadership:** Technology's +1.50% gain indicates continued investor confidence in growth-oriented equities.
+3. **Defensive Weakness:** Mild declines in Health Care and Real Estate suggest investors are rotating away from defensives toward cyclical and growth sectors.
+4. **Breadth is Solid:** Gains were spread across Financials, Industrials, Utilities, Staples, and Communication Services, indicating broad-based participation rather than a narrow rally.
+5. **Macro Watch:** The underperformance of Materials and Real Estate may warrant monitoring for signals around inflation, rates, or global growth concerns.
 
 ---
 
-## ⚠️ Notable Divergences & Risk Signals
-
-| Signal | Observation | Concern Level |
-|---|---|---|
-| **Nasdaq leads** | Growth outpacing value — rate expectations may be shifting | 🟡 Low-Moderate |
-| **VIX compression** | Approaching complacency territory, though not there yet | 🟡 Low-Moderate |
-| **Dow @ ~50K** | Psychological resistance; potential for short-term profit-taking | 🟡 Low |
-| **S&P @ ~7,500** | Round-number resistance; watch for confirmation breakout | 🟡 Low |
-| **No divergence in small-caps** | Russell 2000 in line with large-caps — breadth is healthy | ✅ Positive |
-
-> **No major red flags today.** The primary risk to monitor is **headline/complacency risk** given compressed volatility and major indices testing round-number resistance simultaneously. A catalyst (Fed speak, CPI revision, geopolitical event) could inject volatility quickly in this low-VIX environment.
-
----
-
-*Data as of May 14, 2026 at 16:55 UTC. For informational purposes only — not financial advice.*
+*Report generated by Market Analysis Agent. All data sourced directly from live market feeds. No figures were estimated or fabricated.*
