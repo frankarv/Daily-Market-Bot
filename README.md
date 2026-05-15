@@ -67,7 +67,7 @@ A morning market brief — delivered by AI.
 ## **🛠️ How to Run Locally**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Daily-Market-Bot
+git clone https://github.com/frankarv/Daily-Market-Bot
 cd Daily-Market-Bot
 python bot/main.py
 ```
