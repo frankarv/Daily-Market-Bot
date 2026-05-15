@@ -6,6 +6,8 @@ numpy
 matplotlib
 mplfinance
 anthropic
+
+# Required for your test suite
 httpx==0.28.1
-pytest-asyncio==0.23.5
 pytest
+pytest-asyncio==0.24.0
