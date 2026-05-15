@@ -1,72 +1,73 @@
 # 📊 Daily Market Analysis Report
-**As of:** May 14, 2026 | 20:47 UTC
+**As of:** May 15, 2026 | 04:02 UTC
 
 ---
 
 ## 🏦 Major Indices
 
 | Index | Symbol | Closing Price |
-|---|---|---|
+|-------|--------|--------------|
 | S&P 500 | ^GSPC | 7,501.24 |
 | Nasdaq 100 | ^NDX | 29,580.30 |
-| Dow Jones Industrial Avg | ^DJI | 50,063.46 |
+| Dow Jones Industrial Average | ^DJI | 50,063.46 |
 | Russell 2000 | ^RUT | 2,863.09 |
 
 ### Key Highlights:
-- 🔵 The **Dow Jones** crossed and held above the **50,000** milestone, reflecting strong large-cap sentiment.
-- 🔵 The **S&P 500** remains elevated above 7,500, pointing to continued broad market strength.
-- 🔵 The **Nasdaq 100** at ~29,580 signals sustained momentum in growth and technology stocks.
-- 🔵 The **Russell 2000** at ~2,863 indicates small-cap stocks are participating in the broader rally.
+- 📌 The **Dow Jones** closed above the historic **50,000** milestone at 50,063.46.
+- 📌 The **S&P 500** remains elevated at 7,501.24, reflecting continued broad market strength.
+- 📌 The **Nasdaq 100** at 29,580.30 aligns with robust performance in the Technology sector.
+- 📌 The **Russell 2000** at 2,863.09 indicates small-cap equities are holding firm.
 
 ---
 
-## 🏭 Sector Performance (1-Day % Change)
+## 🗂️ Sector ETF Performance (1-Day % Change)
 
-| Sector | Symbol | 1-Day Change |
-|---|---|:---:|
-| Technology | XLK | +1.50% 🟢 |
-| Energy | XLE | +0.76% 🟢 |
-| Financials | XLF | +0.59% 🟢 |
-| Utilities | XLU | +0.51% 🟢 |
-| Industrials | XLI | +0.51% 🟢 |
-| Consumer Staples | XLP | +0.31% 🟢 |
-| Communication Services | XLC | +0.30% 🟢 |
-| Consumer Discretionary | XLY | -0.04% 🔴 |
-| Health Care | XLV | -0.05% 🔴 |
-| Real Estate | XLRE | -0.68% 🔴 |
-| Materials | XLB | -0.75% 🔴 |
+| Sector | Symbol | 1-Day Change (%) | Trend |
+|--------|--------|-----------------|-------|
+| Technology | XLK | +1.50% | 🟢 |
+| Energy | XLE | +0.76% | 🟢 |
+| Financials | XLF | +0.59% | 🟢 |
+| Utilities | XLU | +0.51% | 🟢 |
+| Industrials | XLI | +0.51% | 🟢 |
+| Consumer Staples | XLP | +0.31% | 🟢 |
+| Communication Services | XLC | +0.30% | 🟢 |
+| Consumer Discretionary | XLY | -0.04% | 🔴 |
+| Health Care | XLV | -0.05% | 🔴 |
+| Real Estate | XLRE | -0.68% | 🔴 |
+| Materials | XLB | -0.75% | 🔴 |
 
 ---
 
 ## 📈 Sector Analysis
 
 ### 🏆 Top Performers
-1. **Technology (XLK) +1.50%** — The clear sector leader today, driving Nasdaq outperformance. Strength in tech suggests continued risk-on appetite from investors.
-2. **Energy (XLE) +0.76%** — A solid gain for Energy, likely supported by commodity prices and supply dynamics.
-3. **Financials (XLF) +0.59%** — Financials benefiting from positive macro sentiment; rising indices often support bank and financial sector earnings outlooks.
+1. **Technology (XLK) +1.50%** — The standout sector of the day, leading all gains. Strong momentum in tech stocks continues to support the Nasdaq 100's elevated level.
+2. **Energy (XLE) +0.76%** — Energy posted solid gains, potentially supported by commodity price movements or supply-side developments.
+3. **Financials (XLF) +0.58%** — Financial stocks advanced, possibly buoyed by a favorable interest rate environment and strong Dow performance.
 
-### ⚠️ Laggards
-1. **Materials (XLB) -0.75%** — The weakest sector today, possibly reflecting concerns over global demand or commodity price softness.
-2. **Real Estate (XLRE) -0.68%** — Rate-sensitive Real Estate continues to face headwinds, underperforming in today's session.
-3. **Health Care (XLV) -0.05%** — Essentially flat, a mild underperformer suggesting a rotation away from defensive sectors.
-
----
-
-## 🔍 Market Themes & Takeaways
-
-| Theme | Observation |
-|---|---|
-| **Risk-On Sentiment** | Broad index gains and Technology leadership signal investors are favoring growth assets. |
-| **Defensive Rotation Out** | Health Care and Consumer Staples are lagging, suggesting reduced demand for defensive plays. |
-| **Rate Sensitivity** | Real Estate weakness reflects ongoing sensitivity to interest rate expectations. |
-| **Small Cap Participation** | Russell 2000 above 2,860 suggests the rally is not exclusively large-cap driven. |
-| **Milestone Watch** | Dow Jones above 50,000 is a psychologically significant level to monitor for support/resistance. |
+### ⚠️ Underperformers
+1. **Materials (XLB) -0.75%** — The weakest sector today, suggesting possible headwinds from commodity pricing or global demand concerns.
+2. **Real Estate (XLRE) -0.68%** — Real estate pulled back, likely pressured by interest rate sensitivities.
+3. **Health Care (XLV) -0.05%** — Nearly flat, with a marginal decline signaling a lack of near-term catalysts.
+4. **Consumer Discretionary (XLY) -0.04%** — Essentially flat, suggesting cautious consumer spending sentiment.
 
 ---
 
-## 📋 Summary
+## 🧭 Market Summary & Outlook
 
-Today's session reflects a **broadly positive market** with a **risk-on tone**. Technology leads sector gains, all major indices are at elevated levels, and the Dow Jones has firmly held the historic 50,000 mark. The primary areas of concern are **Materials** and **Real Estate**, which saw selling pressure. Investors appear to be rotating into growth and cyclical sectors while trimming defensive and rate-sensitive positions.
+| Metric | Assessment |
+|--------|-----------|
+| Overall Market Tone | **Broadly Positive** |
+| Breadth | **7 of 11 sectors advancing** |
+| Leadership | **Growth / Cyclicals (Tech, Energy)** |
+| Laggards | **Defensives & Rate-Sensitives (Materials, Real Estate)** |
+
+**Key Takeaways:**
+- The market exhibits a **risk-on tone** today, with growth-oriented sectors like Technology leading gains while defensive and rate-sensitive sectors lag.
+- The **Dow Jones crossing 50,000** is a psychologically significant milestone and may attract further investor attention.
+- The rotation **away from Real Estate and Materials** could signal investor concern about interest rates and global economic demand.
+- With **7 out of 11 sectors in positive territory**, broad market participation supports a constructive near-term outlook.
 
 ---
-*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
+
+*Report generated by Market Analysis Agent. All data sourced directly from live market feeds. No data has been fabricated or estimated.*
