@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+yfinance
+pandas
+numpy
+matplotlib
+mplfinance
+anthropic
+httpx
+pytest
+pytest-asyncio
