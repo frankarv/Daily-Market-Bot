@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from api.routers import reports, health
+from api.routers import reports, health, charts
 
 app = FastAPI(
     title="Market Analysis Agent API",
@@ -7,6 +7,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Routers
 app.include_router(health.router)
 app.include_router(reports.router)
+app.include_router(charts.router)
