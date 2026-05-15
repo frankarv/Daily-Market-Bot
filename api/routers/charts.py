@@ -2,7 +2,7 @@ import io
 import matplotlib.pyplot as plt
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
-from bot.tools.market_data import get_indices, get_sector_performance
+from bot.market_data import get_indices, get_sector_performance
 
 router = APIRouter(prefix="/charts", tags=["Charts"])
 
