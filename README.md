@@ -1,109 +1,144 @@
-# 📈 Daily Market Intelligence Bot
+# **📈 Automated Market Analysis Bot (Claude 4 + Python + GitHub Actions)**
 
-The **Daily Market Intelligence Bot** is an automated GitHub Actions workflow that generates a concise, AI‑powered market summary every weekday morning. It fetches live market data, sends it to Claude for analysis, and posts the final report to your preferred channel (Discord or Slack).
+A fully automated **AI‑powered market analysis bot** that runs every morning, fetches real market data, analyzes it using Claude 4, writes a clean Markdown report, and commits it to your GitHub repository — completely hands‑off.
 
-The bot runs **Monday–Friday at 6:00 AM MST** using GitHub Actions’ scheduled workflows.
-
----
-
-## 🚀 Features
-
-- Fetches daily market data (indices, sectors, volatility, macro events)
-- Generates a structured market summary using **Claude (Anthropic API)**
-- Posts the report to **Discord** or **Slack** via webhook
-- Optionally commits the generated `market-report.md` back to the repo
-- Fully automated — no servers, no cron jobs, no manual steps
+This project shows how AI agents can automate real workflows using **tool‑use**, **Python**, and **GitHub Actions**.
 
 ---
 
-## 🧠 How It Works
+## **🚀 What This Bot Does**
 
-1. GitHub Actions starts the workflow on a schedule or manual trigger  
-2. Python environment is created and dependencies are installed  
-3. The bot gathers market data  
-4. A prompt is sent to Claude using the Anthropic API  
-5. Claude returns a formatted market summary  
-6. The bot posts the summary to Discord/Slack  
-7. (Optional) The report is committed to the repository
-
----
-
-## 🔧 Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/Daily-Market-Bot
+```
+📥 Fetches real market data (indices + sectors)
+🧠 Analyzes trends using Claude 4
+📝 Writes a clean, human‑readable daily summary
+📤 Saves it as Markdown
+🔄 Commits it automatically to GitHub
 ```
 
-### 2. Add your secrets in GitHub
-Go to:
+A morning market brief — delivered by AI.
 
-**Settings → Secrets and variables → Actions**
+---
 
-Add:
+## **🧠 Why This Matters**
 
-- `CLAUDE_API_KEY` — your Anthropic API key  
-- `DISCORD_WEBHOOK_URL` or `SLACK_WEBHOOK_URL`  
+- Saves time every morning  
+- Creates a daily market archive  
+- Fully automated end‑to‑end  
+- Easy to extend (news, charts, alerts, sentiment)  
+- Great example of real AI agent automation  
+- 100% open‑source and community‑friendly  
 
-### 3. Install dependencies locally (optional)
-```bash
-pip install -r bot/requirements.txt
+---
+
+## **⚙️ Architecture Overview**
+
+```
+        ☁️ GitHub Actions (Daily Trigger)
+                     │
+                     ▼
+        🐍 Python Market Agent
+                     │
+                     ▼
+ 🤖 Claude 4 (Analysis + Writing)
+                     │
+                     ▼
+     📈 Market Data Tools (Indices + Sectors)
+                     │
+                     ▼
+        📝 Markdown Report Generated
+                     │
+                     ▼
+        🔄 Auto‑Committed to GitHub
 ```
 
-### 4. Run the bot locally (optional)
+---
+
+## **📦 Tech Stack**
+
+- Claude 4 (claude‑sonnet‑4‑6)  
+- Python  
+- yfinance  
+- GitHub Actions  
+- Markdown  
+
+---
+
+## **🛠️ How to Run Locally**
+
 ```bash
+git clone https://github.com/YOUR-USERNAME/Daily-Market-Bot
+cd Daily-Market-Bot
 python bot/main.py
 ```
 
----
-
-## 🕒 Schedule
-
-The workflow runs automatically:
-
-```
-0 13 * * 1-5
-```
-
-This corresponds to **13:00 UTC**, which is **6:00 AM MST**, Monday through Friday.
-
-You can also run it manually from the **Actions** tab.
+A fresh `market-report.md` will be generated instantly.
 
 ---
 
-## 📄 Generated Output
+## **⚙️ How to Use in Your Own Project**
 
-Each run produces:
+```python
+from bot.agents.market_agent import run_market_agent
 
-- A Discord/Slack message  
-- A `market-report.md` file (optional commit)
+report = run_market_agent()
+print(report)
+```
 
-Example sections include:
-
-- Market overview  
-- Sector performance  
-- Macro events  
-- AI‑generated insights  
+Perfect for dashboards, scripts, or your own automations.
 
 ---
 
-## 🛠️ File Structure
+## **🤖 Automation (GitHub Actions)**
+
+This repo includes a daily scheduled workflow.  
+Once enabled, the bot runs itself every morning.
 
 ```
-Daily-Market-Bot/
-├── bot/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── utils/
-├── market-report.md (generated)
-└── .github/
-    └── workflows/
-        └── daily-market.yml
+You sleep.
+Bot wakes up.
+Bot checks the markets.
+Bot thinks.
+Bot writes.
+Bot saves.
+Bot commits.
+You start your day informed.
 ```
 
 ---
 
-## 🤝 Contributing
+## **🧩 Extend the Bot**
 
-Pull requests are welcome!  
-Feel free to open issues for improvements, new data sources, or additional output formats.
+You can easily add:
+
+- **new tools**  
+- **news sentiment**  
+- **charts**  
+- **portfolio tracking**  
+- **Slack or Discord alerts**  
+
+Claude will automatically start using whatever you give it.
+
+---
+
+## **🤝 Contribute**
+
+This project is designed to grow — and contributions are welcome.
+
+Ways to help:
+
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 🛠️ Submit PRs  
+- 🧩 Add new data sources  
+- 📊 Add visualizations  
+- 🧠 Improve the analysis logic  
+- 🔔 Add notifications  
+
+If you’re into **AI agents, automation, finance, or Python**, this is a great playground.
+
+---
+
+## **📬 Contact**
+
+Feel free to open an issue or reach out if you want to collaborate, extend the bot, or integrate it into something bigger.
