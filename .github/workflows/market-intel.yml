@@ -27,6 +27,12 @@ jobs:
           source .venv/bin/activate
           pip install --upgrade pip
           pip install -r bot/requirements.txt
+          pip install pytest httpx
+
+      - name: Run API tests
+        run: |
+          source .venv/bin/activate
+          pytest
 
       - name: Test Market Analysis Agent
         env:
