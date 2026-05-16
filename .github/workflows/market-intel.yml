@@ -23,8 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m venv .venv
-          source .venv/bin/activate
           pip install --upgrade pip
           pip install -r bot/requirements.txt
           pip install pytest pytest-asyncio httpx
@@ -32,18 +30,14 @@ jobs:
       - name: Run API tests
         env:
           PYTHONPATH: ${{ github.workspace }}
-        run: |
-          source .venv/bin/activate
-          python -m pytest -q
+        run: python -m pytest -q
 
       - name: Test Market Analysis Agent
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           CLAUDE_MODEL: "claude-sonnet-4-6"
           PYTHONPATH: ${{ github.workspace }}
-        run: |
-          source .venv/bin/activate
-          python -c "from bot.agents.market_agent import run_market_agent; print('Running agent test...'); report = run_market_agent(); print('Agent output:'); print(report)"
+        run: python -c "from bot.agents.market_agent import run_market_agent; print('Running agent test...'); report = run_market_agent(); print('Agent output:'); print(report)"
 
       - name: Run Market Intelligence Agent
         env:
@@ -52,9 +46,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           PYTHONPATH: ${{ github.workspace }}
-        run: |
-          source .venv/bin/activate
-          python bot/main.py
+        run: python bot/main.py
 
       - name: Debug files
         run: ls -al

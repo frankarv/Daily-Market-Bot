@@ -11,24 +11,19 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: |
-          python -m venv .venv
-          source .venv/bin/activate
+          pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pytest pytest-asyncio httpx
-
-      - name: Add repo root to PYTHONPATH
-        run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV
 
       - name: Run tests
-        run: |
-          source .venv/bin/activate
-          python -m pytest -q
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -m pytest -q
