@@ -3,11 +3,12 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 from fastapi import APIRouter, Query
 from fastapi.responses import StreamingResponse, JSONResponse
+import os
 from anthropic import Anthropic
 
 router = APIRouter(prefix="/charts", tags=["Combined Chart + Commentary"])
 
-client = Anthropic()
+client = Anthropic(api_key=os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
 
 @router.get("/combined-multi")
 def combined_multi_chart_and_commentary(
@@ -82,7 +83,7 @@ def combined_multi_chart_and_commentary(
     )
 
     response = client.messages.create(
-        model="claude-3-sonnet-20240229",
+        model="claude-sonnet-4-6",
         max_tokens=500,
         messages=[{"role": "user", "content": prompt}]
     )

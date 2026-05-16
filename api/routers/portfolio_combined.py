@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from fastapi import APIRouter, Query
 from fastapi.responses import StreamingResponse
+import os
 from anthropic import Anthropic
 
 router = APIRouter(prefix="/portfolio", tags=["Portfolio Combined"])
 
-client = Anthropic()
+client = Anthropic(api_key=os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
 
 @router.get("/combined")
 def portfolio_combined(
@@ -90,7 +91,7 @@ def portfolio_combined(
     )
 
     response = client.messages.create(
-        model="claude-3-sonnet-20240229",
+        model="claude-sonnet-4-6",
         max_tokens=500,
         messages=[{"role": "user", "content": prompt}]
     )

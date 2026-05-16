@@ -2,11 +2,12 @@ import yfinance as yf
 import pandas as pd
 from fastapi import APIRouter, Query
 from fastapi.responses import JSONResponse
+import os
 from anthropic import Anthropic
 
 router = APIRouter(prefix="/portfolio", tags=["AI Portfolio Commentary"])
 
-client = Anthropic()
+client = Anthropic(api_key=os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
 
 @router.get("/commentary")
 def portfolio_commentary(
@@ -88,7 +89,7 @@ def portfolio_commentary(
     )
 
     response = client.messages.create(
-        model="claude-3-sonnet-20240229",
+        model="claude-sonnet-4-6",
         max_tokens=600,
         messages=[{"role": "user", "content": prompt}]
     )

@@ -3,11 +3,12 @@ import numpy as np
 import pandas as pd
 from fastapi import APIRouter, Query
 from fastapi.responses import JSONResponse
+import os
 from anthropic import Anthropic
 
 router = APIRouter(prefix="/charts", tags=["Trend Strength"])
 
-client = Anthropic()
+client = Anthropic(api_key=os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
 
 def compute_rsi(series, period=14):
     delta = series.diff()
@@ -101,7 +102,7 @@ def trend_strength_score(
     )
 
     response = client.messages.create(
-        model="claude-3-sonnet-20240229",
+        model="claude-sonnet-4-6",
         max_tokens=400,
         messages=[{"role": "user", "content": prompt}]
     )

@@ -3,11 +3,12 @@ import numpy as np
 import pandas as pd
 from fastapi import APIRouter, Query
 from fastapi.responses import JSONResponse
+import os
 from anthropic import Anthropic
 
 router = APIRouter(prefix="/portfolio", tags=["Portfolio Risk Metrics"])
 
-client = Anthropic()
+client = Anthropic(api_key=os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
 
 def max_drawdown(series):
     cumulative = series.cummax()
@@ -87,7 +88,7 @@ def portfolio_risk_metrics(
     )
 
     response = client.messages.create(
-        model="claude-3-sonnet-20240229",
+        model="claude-sonnet-4-6",
         max_tokens=500,
         messages=[{"role": "user", "content": prompt}]
     )
