@@ -27,12 +27,14 @@ jobs:
           source .venv/bin/activate
           pip install --upgrade pip
           pip install -r bot/requirements.txt
-          pip install pytest httpx
+          pip install pytest pytest-asyncio httpx
 
       - name: Run API tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           source .venv/bin/activate
-          pytest
+          python -m pytest -q
 
       - name: Test Market Analysis Agent
         env:
