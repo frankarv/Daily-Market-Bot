@@ -28,7 +28,7 @@ def intraday_candles(
     """
     period, yf_interval = INTRADAY_MAP[interval]
 
-    data = yf.download(symbol, period=period, interval=yf_interval)
+    data = yf.download(symbol, period=period, interval=yf_interval, multi_level_index=False)
 
     if data.empty:
         return {"error": f"No intraday data found for {symbol} ({interval})"}

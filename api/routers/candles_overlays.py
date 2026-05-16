@@ -16,7 +16,7 @@ def candlestick_overlays(
     """
     Returns a PNG candlestick chart with SMA, EMA, and Bollinger Bands overlays.
     """
-    data = yf.download(symbol, period="6mo", interval="1d")
+    data = yf.download(symbol, period="6mo", interval="1d", multi_level_index=False)
 
     if data.empty:
         return {"error": f"No data found for symbol {symbol}"}

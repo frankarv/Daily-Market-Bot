@@ -16,7 +16,7 @@ def chart_commentary(
     """
     Returns AI-generated commentary on recent price action for the given symbol.
     """
-    data = yf.download(symbol, period=f"{days}d", interval="1d")
+    data = yf.download(symbol, period=f"{days}d", interval="1d", multi_level_index=False)
 
     if data.empty:
         return {"error": f"No data found for symbol {symbol}"}

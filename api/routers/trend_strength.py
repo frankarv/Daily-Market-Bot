@@ -27,7 +27,7 @@ def trend_strength_score(
     """
     Returns a 0–100 trend strength score plus AI-generated interpretation.
     """
-    data = yf.download(symbol, period=f"{days}d", interval="1d")
+    data = yf.download(symbol, period=f"{days}d", interval="1d", multi_level_index=False)
 
     if data.empty:
         return {"error": f"No data found for symbol {symbol}"}

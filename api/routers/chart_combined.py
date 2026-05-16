@@ -19,7 +19,7 @@ def combined_chart_and_commentary(
     Returns a PNG candlestick chart AND AI-generated commentary
     in a single multipart response.
     """
-    data = yf.download(symbol, period=f"{days}d", interval="1d")
+    data = yf.download(symbol, period=f"{days}d", interval="1d", multi_level_index=False)
 
     if data.empty:
         return {"error": f"No data found for symbol {symbol}"}

@@ -22,7 +22,7 @@ def chart_commentary_multi(
     summary_text = ""
 
     for symbol in tickers:
-        data = yf.download(symbol, period=f"{days}d", interval="1d")
+        data = yf.download(symbol, period=f"{days}d", interval="1d", multi_level_index=False)
 
         if data.empty:
             summaries[symbol] = {"error": f"No data found for {symbol}"}

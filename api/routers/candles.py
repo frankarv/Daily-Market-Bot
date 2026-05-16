@@ -14,7 +14,7 @@ def candlestick_chart(
     """
     Returns a PNG candlestick chart for the given ticker symbol.
     """
-    data = yf.download(symbol, period=f"{days}d", interval="1d")
+    data = yf.download(symbol, period=f"{days}d", interval="1d", multi_level_index=False)
 
     if data.empty:
         return {"error": f"No data found for symbol {symbol}"}
