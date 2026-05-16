@@ -49,7 +49,7 @@ def classify_trend(
         f"{symbol} trend summary ({days} days):\n"
         f"- Trend slope: {slope:.4f}\n"
         f"- SMA20: {sma20:.2f}\n"
-        f"- SMA50: {sma50:.2f if sma50 else 'N/A'}\n"
+        f"- SMA50: {'N/A' if sma50 is None else f'{sma50:.2f}'}\n"
         f"- Volatility: {volatility:.2f}%\n"
         f"- Classified trend: {trend}\n"
     )

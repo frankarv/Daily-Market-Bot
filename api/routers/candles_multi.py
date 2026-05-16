@@ -27,7 +27,7 @@ def multi_timeframe_candles(
     """
     period, interval = TIMEFRAME_MAP[timeframe]
 
-    data = yf.download(symbol, period=period, interval=interval)
+    data = yf.download(symbol, period=period, interval=interval, multi_level_index=False)
 
     if data.empty:
         return {"error": f"No data found for symbol {symbol} ({timeframe})"}

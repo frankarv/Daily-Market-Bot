@@ -81,7 +81,7 @@ def trend_strength_score(
         f"Trend strength analysis for {symbol} ({days} days):\n"
         f"- Slope: {slope:.4f}\n"
         f"- SMA20: {sma20:.2f}\n"
-        f"- SMA50: {sma50:.2f if sma50 else 'N/A'}\n"
+        f"- SMA50: {'N/A' if sma50 is None else f'{sma50:.2f}'}\n"
         f"- RSI: {rsi:.2f}\n"
         f"- Volatility: {volatility:.2f}%\n"
         f"- Trend Strength Score (0–100): {score:.1f}\n"
