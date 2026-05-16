@@ -1,73 +1,70 @@
 # 📊 Daily Market Analysis Report
-**As of:** May 15, 2026 | 04:02 UTC
+**As of:** 2026-05-16 | 21:30 UTC
 
 ---
 
 ## 🏦 Major Indices
 
-| Index | Symbol | Closing Price |
-|-------|--------|--------------|
-| S&P 500 | ^GSPC | 7,501.24 |
-| Nasdaq 100 | ^NDX | 29,580.30 |
-| Dow Jones Industrial Average | ^DJI | 50,063.46 |
-| Russell 2000 | ^RUT | 2,863.09 |
-
-### Key Highlights:
-- 📌 The **Dow Jones** closed above the historic **50,000** milestone at 50,063.46.
-- 📌 The **S&P 500** remains elevated at 7,501.24, reflecting continued broad market strength.
-- 📌 The **Nasdaq 100** at 29,580.30 aligns with robust performance in the Technology sector.
-- 📌 The **Russell 2000** at 2,863.09 indicates small-cap equities are holding firm.
+| Index | Symbol | Close |
+|---|---|---|
+| S&P 500 | ^GSPC | 7,408.50 |
+| Nasdaq 100 | ^NDX | 29,125.20 |
+| Dow Jones Industrial Avg | ^DJI | 49,526.17 |
+| Russell 2000 | ^RUT | 2,793.30 |
 
 ---
 
-## 🗂️ Sector ETF Performance (1-Day % Change)
+## 🏭 Sector ETF Performance (1-Day % Change)
 
-| Sector | Symbol | 1-Day Change (%) | Trend |
-|--------|--------|-----------------|-------|
-| Technology | XLK | +1.50% | 🟢 |
-| Energy | XLE | +0.76% | 🟢 |
-| Financials | XLF | +0.59% | 🟢 |
-| Utilities | XLU | +0.51% | 🟢 |
-| Industrials | XLI | +0.51% | 🟢 |
-| Consumer Staples | XLP | +0.31% | 🟢 |
-| Communication Services | XLC | +0.30% | 🟢 |
-| Consumer Discretionary | XLY | -0.04% | 🔴 |
-| Health Care | XLV | -0.05% | 🔴 |
-| Real Estate | XLRE | -0.68% | 🔴 |
-| Materials | XLB | -0.75% | 🔴 |
-
----
-
-## 📈 Sector Analysis
-
-### 🏆 Top Performers
-1. **Technology (XLK) +1.50%** — The standout sector of the day, leading all gains. Strong momentum in tech stocks continues to support the Nasdaq 100's elevated level.
-2. **Energy (XLE) +0.76%** — Energy posted solid gains, potentially supported by commodity price movements or supply-side developments.
-3. **Financials (XLF) +0.58%** — Financial stocks advanced, possibly buoyed by a favorable interest rate environment and strong Dow performance.
-
-### ⚠️ Underperformers
-1. **Materials (XLB) -0.75%** — The weakest sector today, suggesting possible headwinds from commodity pricing or global demand concerns.
-2. **Real Estate (XLRE) -0.68%** — Real estate pulled back, likely pressured by interest rate sensitivities.
-3. **Health Care (XLV) -0.05%** — Nearly flat, with a marginal decline signaling a lack of near-term catalysts.
-4. **Consumer Discretionary (XLY) -0.04%** — Essentially flat, suggesting cautious consumer spending sentiment.
+| Sector | Symbol | Change (1D) | Sentiment |
+|---|---|---|---|
+| Energy | XLE | +2.36% | 🟢 Bullish |
+| Financials | XLF | -0.37% | 🔴 Bearish |
+| Consumer Staples | XLP | -0.40% | 🔴 Bearish |
+| Communication Services | XLC | -0.88% | 🔴 Bearish |
+| Health Care | XLV | -1.04% | 🔴 Bearish |
+| Real Estate | XLRE | -1.55% | 🔴 Bearish |
+| Industrials | XLI | -1.78% | 🔴 Bearish |
+| Consumer Discretionary | XLY | -1.80% | 🔴 Bearish |
+| Technology | XLK | -1.81% | 🔴 Bearish |
+| Utilities | XLU | -2.29% | 🔴 Bearish |
+| Materials | XLB | -2.65% | 🔴 Bearish |
 
 ---
 
-## 🧭 Market Summary & Outlook
+## 🔍 Market Analysis
 
-| Metric | Assessment |
-|--------|-----------|
-| Overall Market Tone | **Broadly Positive** |
-| Breadth | **7 of 11 sectors advancing** |
-| Leadership | **Growth / Cyclicals (Tech, Energy)** |
-| Laggards | **Defensives & Rate-Sensitives (Materials, Real Estate)** |
+### Overall Market Tone: ⚠️ Risk-Off / Broad Decline
 
-**Key Takeaways:**
-- The market exhibits a **risk-on tone** today, with growth-oriented sectors like Technology leading gains while defensive and rate-sensitive sectors lag.
-- The **Dow Jones crossing 50,000** is a psychologically significant milestone and may attract further investor attention.
-- The rotation **away from Real Estate and Materials** could signal investor concern about interest rates and global economic demand.
-- With **7 out of 11 sectors in positive territory**, broad market participation supports a constructive near-term outlook.
+Today's session reflects **widespread selling pressure** across the market. **10 out of 11 S&P sectors** closed in negative territory, indicating a broad risk-off environment rather than isolated sector weakness.
+
+### 🟢 Outperformer: Energy (XLE) +2.36%
+Energy was the **clear standout** of the session, the only sector posting gains. This divergence may reflect strength in crude oil prices or commodity-driven sentiment, acting as a defensive inflation hedge amid broader equity weakness.
+
+### 🔴 Underperformers
+- **Materials (XLB) -2.65%** — Worst performer of the day. Weakness here often signals concerns about global demand and industrial slowdown.
+- **Utilities (XLU) -2.29%** — A notable decline in a typically defensive sector, suggesting even safe-haven plays were not immune to selling.
+- **Technology (XLK) -1.81%** & **Consumer Discretionary (XLY) -1.80%** — Significant losses in growth-oriented sectors point to pressure on higher-valuation, rate-sensitive equities.
+- **Industrials (XLI) -1.78%** — Adds to concerns around economic cycle slowdown.
+
+### 📌 Key Takeaways
+1. **Breadth is poor** — The near-universal red across sectors indicates macro-level selling, not sector rotation.
+2. **Energy as a haven** — Commodity-linked sectors may be benefiting from inflation expectations or geopolitical factors.
+3. **Defensive sectors not immune** — Utilities and Consumer Staples both fell, suggesting deleveraging or broad market liquidation.
+4. **Growth under pressure** — Losses in Tech and Consumer Discretionary reflect risk appetite deterioration.
 
 ---
 
-*Report generated by Market Analysis Agent. All data sourced directly from live market feeds. No data has been fabricated or estimated.*
+## ⚡ Quick Stats
+
+| Metric | Value |
+|---|---|
+| Sectors Up | 1 / 11 |
+| Sectors Down | 10 / 11 |
+| Best Sector | Energy (XLE) +2.36% |
+| Worst Sector | Materials (XLB) -2.65% |
+| Market Sentiment | Risk-Off 🔴 |
+
+---
+
+*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
