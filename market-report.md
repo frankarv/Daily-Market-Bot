@@ -1,12 +1,12 @@
 # 📊 Daily Market Analysis Report
-**As of:** 2026-05-16 | 21:30 UTC
+**As of:** May 17, 2026 | 04:35 UTC
 
 ---
 
 ## 🏦 Major Indices
 
 | Index | Symbol | Close |
-|---|---|---|
+|-------|--------|-------|
 | S&P 500 | ^GSPC | 7,408.50 |
 | Nasdaq 100 | ^NDX | 29,125.20 |
 | Dow Jones Industrial Avg | ^DJI | 49,526.17 |
@@ -14,57 +14,48 @@
 
 ---
 
-## 🏭 Sector ETF Performance (1-Day % Change)
+## 🏭 Sector Performance (1-Day % Change)
 
-| Sector | Symbol | Change (1D) | Sentiment |
-|---|---|---|---|
-| Energy | XLE | +2.36% | 🟢 Bullish |
-| Financials | XLF | -0.37% | 🔴 Bearish |
-| Consumer Staples | XLP | -0.40% | 🔴 Bearish |
-| Communication Services | XLC | -0.88% | 🔴 Bearish |
-| Health Care | XLV | -1.04% | 🔴 Bearish |
-| Real Estate | XLRE | -1.55% | 🔴 Bearish |
-| Industrials | XLI | -1.78% | 🔴 Bearish |
-| Consumer Discretionary | XLY | -1.80% | 🔴 Bearish |
-| Technology | XLK | -1.81% | 🔴 Bearish |
-| Utilities | XLU | -2.29% | 🔴 Bearish |
-| Materials | XLB | -2.65% | 🔴 Bearish |
-
----
-
-## 🔍 Market Analysis
-
-### Overall Market Tone: ⚠️ Risk-Off / Broad Decline
-
-Today's session reflects **widespread selling pressure** across the market. **10 out of 11 S&P sectors** closed in negative territory, indicating a broad risk-off environment rather than isolated sector weakness.
-
-### 🟢 Outperformer: Energy (XLE) +2.36%
-Energy was the **clear standout** of the session, the only sector posting gains. This divergence may reflect strength in crude oil prices or commodity-driven sentiment, acting as a defensive inflation hedge amid broader equity weakness.
-
-### 🔴 Underperformers
-- **Materials (XLB) -2.65%** — Worst performer of the day. Weakness here often signals concerns about global demand and industrial slowdown.
-- **Utilities (XLU) -2.29%** — A notable decline in a typically defensive sector, suggesting even safe-haven plays were not immune to selling.
-- **Technology (XLK) -1.81%** & **Consumer Discretionary (XLY) -1.80%** — Significant losses in growth-oriented sectors point to pressure on higher-valuation, rate-sensitive equities.
-- **Industrials (XLI) -1.78%** — Adds to concerns around economic cycle slowdown.
-
-### 📌 Key Takeaways
-1. **Breadth is poor** — The near-universal red across sectors indicates macro-level selling, not sector rotation.
-2. **Energy as a haven** — Commodity-linked sectors may be benefiting from inflation expectations or geopolitical factors.
-3. **Defensive sectors not immune** — Utilities and Consumer Staples both fell, suggesting deleveraging or broad market liquidation.
-4. **Growth under pressure** — Losses in Tech and Consumer Discretionary reflect risk appetite deterioration.
+| Sector | ETF | Change (1D) |
+|--------|-----|-------------|
+| 🟢 Energy | XLE | +2.36% |
+| 🔴 Materials | XLB | -2.65% |
+| 🔴 Utilities | XLU | -2.29% |
+| 🔴 Technology | XLK | -1.81% |
+| 🔴 Consumer Discretionary | XLY | -1.80% |
+| 🔴 Industrials | XLI | -1.78% |
+| 🔴 Real Estate | XLRE | -1.55% |
+| 🔴 Health Care | XLV | -1.04% |
+| 🔴 Communication Services | XLC | -0.88% |
+| 🔴 Consumer Staples | XLP | -0.40% |
+| 🔴 Financials | XLF | -0.37% |
 
 ---
 
-## ⚡ Quick Stats
+## 📝 Analysis & Key Takeaways
 
-| Metric | Value |
-|---|---|
-| Sectors Up | 1 / 11 |
-| Sectors Down | 10 / 11 |
-| Best Sector | Energy (XLE) +2.36% |
-| Worst Sector | Materials (XLB) -2.65% |
-| Market Sentiment | Risk-Off 🔴 |
+### Market Breadth: Broadly Negative
+Today's session reflects **widespread selling pressure** across the market. 10 out of 11 tracked sectors closed in the red, signaling a broad risk-off environment rather than sector-specific weakness.
+
+### ✅ Bright Spot: Energy Leads
+- **Energy (XLE)** was the sole outperformer, gaining **+2.36%**, suggesting strength in oil & gas or commodity prices driving sector optimism.
+
+### ⚠️ Biggest Laggards
+- **Materials (XLB)** led declines at **-2.65%**, possibly reflecting concerns around global demand or commodity input costs.
+- **Utilities (XLU)** fell **-2.29%**, unusual for a typically defensive sector — this may indicate rising rate expectations weighing on yield-sensitive assets.
+- **Technology (XLK)** and **Consumer Discretionary (XLY)** both dropped nearly **-1.80%**, pointing to continued pressure on growth-oriented and discretionary spending stocks.
+
+### 🏦 Defensive Sectors Offered Limited Protection
+- **Consumer Staples (XLP, -0.40%)** and **Financials (XLF, -0.37%)** held up relatively better but still finished in negative territory, suggesting limited safe-haven demand even in traditional defensives.
+
+### 📉 Small Caps Under Pressure
+- The **Russell 2000 (^RUT)** at **2,793.30** reflects continued caution toward smaller, more economically-sensitive companies in a risk-off environment.
 
 ---
 
+## 🔎 Summary
+
+> Today's market leaned **decisively bearish** across sectors, with Energy as the lone exception. The selling was broad-based, affecting both growth and defensive sectors alike. Investors appear to be in a risk-reduction mode. Watch for macro catalysts — such as inflation data, Fed communications, or geopolitical developments — that could shift the tone in upcoming sessions.
+
+---
 *Report generated by Market Analysis Agent | Data sourced from live market feeds.*
