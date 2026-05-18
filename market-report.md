@@ -1,61 +1,60 @@
 # 📊 Daily Market Analysis Report
-**As of:** May 17, 2026 | 04:35 UTC
+**As of:** May 18, 2026 | 4:32 PM ET
 
 ---
 
 ## 🏦 Major Indices
 
-| Index | Symbol | Close |
-|-------|--------|-------|
-| S&P 500 | ^GSPC | 7,408.50 |
-| Nasdaq 100 | ^NDX | 29,125.20 |
-| Dow Jones Industrial Avg | ^DJI | 49,526.17 |
-| Russell 2000 | ^RUT | 2,793.30 |
+| Index | Symbol | Closing Price |
+|-------|--------|--------------|
+| S&P 500 | ^GSPC | 7,367.66 |
+| Nasdaq 100 | ^NDX | 28,786.37 |
+| Dow Jones Industrial Avg | ^DJI | 49,495.66 |
+| Russell 2000 | ^RUT | 2,779.40 |
+
+> **Highlights:** The Dow Jones edges closer to the landmark **50,000** level, closing at 49,495.66. The S&P 500 holds firmly above 7,300, while the Nasdaq 100 remains elevated above 28,700. The small-cap Russell 2000 sits at 2,779.
 
 ---
 
 ## 🏭 Sector Performance (1-Day % Change)
 
-| Sector | ETF | Change (1D) |
-|--------|-----|-------------|
-| 🟢 Energy | XLE | +2.36% |
-| 🔴 Materials | XLB | -2.65% |
-| 🔴 Utilities | XLU | -2.29% |
-| 🔴 Technology | XLK | -1.81% |
-| 🔴 Consumer Discretionary | XLY | -1.80% |
-| 🔴 Industrials | XLI | -1.78% |
-| 🔴 Real Estate | XLRE | -1.55% |
-| 🔴 Health Care | XLV | -1.04% |
-| 🔴 Communication Services | XLC | -0.88% |
-| 🔴 Consumer Staples | XLP | -0.40% |
-| 🔴 Financials | XLF | -0.37% |
+| Sector | Symbol | 1-Day Change |
+|--------|--------|-------------|
+| 🟢 Energy | XLE | +1.90% |
+| 🟢 Financials | XLF | +0.90% |
+| 🟢 Communication Services | XLC | +0.86% |
+| 🟢 Consumer Staples | XLP | +0.87% |
+| 🟢 Real Estate | XLRE | +0.72% |
+| 🟡 Health Care | XLV | +0.02% |
+| 🟡 Materials | XLB | +0.02% |
+| 🔴 Consumer Discretionary | XLY | -0.22% |
+| 🔴 Utilities | XLU | -0.54% |
+| 🔴 Industrials | XLI | -0.85% |
+| 🔴 Technology | XLK | -2.12% |
 
 ---
 
 ## 📝 Analysis & Key Takeaways
 
-### Market Breadth: Broadly Negative
-Today's session reflects **widespread selling pressure** across the market. 10 out of 11 tracked sectors closed in the red, signaling a broad risk-off environment rather than sector-specific weakness.
+### 🔥 Top Performers
+- **Energy (XLE, +1.90%)** leads the market today, suggesting strength in commodity-linked equities — possibly driven by oil price movements or supply concerns.
+- **Financials (XLF, +0.90%)** and **Communication Services (XLC, +0.86%)** round out the top performers, indicating broad risk appetite in rate-sensitive and growth-adjacent sectors.
 
-### ✅ Bright Spot: Energy Leads
-- **Energy (XLE)** was the sole outperformer, gaining **+2.36%**, suggesting strength in oil & gas or commodity prices driving sector optimism.
+### ⚠️ Underperformers
+- **Technology (XLK, -2.12%)** is the clear laggard, posting the steepest decline of the day. A notable pullback in the largest sector by weight may have capped broader index gains.
+- **Industrials (XLI, -0.85%)** and **Utilities (XLU, -0.54%)** also declined, potentially reflecting rotation out of defensive and cyclical plays.
 
-### ⚠️ Biggest Laggards
-- **Materials (XLB)** led declines at **-2.65%**, possibly reflecting concerns around global demand or commodity input costs.
-- **Utilities (XLU)** fell **-2.29%**, unusual for a typically defensive sector — this may indicate rising rate expectations weighing on yield-sensitive assets.
-- **Technology (XLK)** and **Consumer Discretionary (XLY)** both dropped nearly **-1.80%**, pointing to continued pressure on growth-oriented and discretionary spending stocks.
+### 🔄 Market Rotation
+Today's action reflects a **rotation from Growth/Tech into Value and Commodity sectors**. The divergence between Energy/Financials outperformance and Technology weakness suggests investors may be repositioning amid interest rate expectations or macro concerns.
 
-### 🏦 Defensive Sectors Offered Limited Protection
-- **Consumer Staples (XLP, -0.40%)** and **Financials (XLF, -0.37%)** held up relatively better but still finished in negative territory, suggesting limited safe-haven demand even in traditional defensives.
-
-### 📉 Small Caps Under Pressure
-- The **Russell 2000 (^RUT)** at **2,793.30** reflects continued caution toward smaller, more economically-sensitive companies in a risk-off environment.
+### 🟡 Neutral Zones
+- **Health Care (XLV, +0.02%)** and **Materials (XLB, +0.02%)** were essentially flat, signaling indecision or consolidation in these areas.
 
 ---
 
-## 🔎 Summary
+## 📌 Summary
 
-> Today's market leaned **decisively bearish** across sectors, with Energy as the lone exception. The selling was broad-based, affecting both growth and defensive sectors alike. Investors appear to be in a risk-reduction mode. Watch for macro catalysts — such as inflation data, Fed communications, or geopolitical developments — that could shift the tone in upcoming sessions.
+> Today's session was marked by **sector divergence**. While headline indices held broadly stable, the underlying rotation — out of Technology and into Energy, Financials, and defensive Staples — tells a more nuanced story. Watch the **Technology sector** closely for follow-through selling or a potential bounce in tomorrow's session. The Dow's proximity to **50,000** remains a key psychological milestone to monitor.
 
 ---
-*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
+*Report generated by Market Analysis Agent | Data sourced at 2026-05-18 16:32 ET*
