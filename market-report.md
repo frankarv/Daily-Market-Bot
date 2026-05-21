@@ -1,78 +1,76 @@
 # 📊 Daily Market Analysis Report
-**As of:** May 20, 2026 | 4:30 PM ET
+**As of:** May 21, 2026 | 00:35 UTC
 
 ---
 
-## 🏦 Major Indices
+## 🏛️ Major Indices
 
 | Index | Symbol | Closing Price |
 |---|---|---|
-| S&P 500 | ^GSPC | 7,406.08 |
-| Nasdaq 100 | ^NDX | 29,139.16 |
-| Dow Jones Industrial Average | ^DJI | 49,817.94 |
-| Russell 2000 | ^RUT | 2,809.73 |
+| S&P 500 | ^GSPC | 7,432.97 |
+| NASDAQ-100 | ^NDX | 29,297.70 |
+| Dow Jones Industrial Avg | ^DJI | 50,009.35 |
+| Russell 2000 | ^RUT | 2,817.36 |
 
-> **Notable:** The Dow Jones approaches the psychologically significant **50,000** level, while the S&P 500 holds firmly above 7,400. The Nasdaq 100 continues to reflect strength in large-cap technology.
-
----
-
-## 📈 Sector Performance (1-Day % Change)
-
-### ✅ Top Performers
-| Sector | ETF | 1-Day Change |
-|---|---|---|
-| Consumer Discretionary | XLY | +1.75% |
-| Technology | XLK | +1.52% |
-| Industrials | XLI | +1.19% |
-| Materials | XLB | +0.88% |
-| Financials | XLF | +0.85% |
-
-### 🔄 Modest Movers
-| Sector | ETF | 1-Day Change |
-|---|---|---|
-| Real Estate | XLRE | +0.71% |
-| Utilities | XLU | +0.55% |
-
-### ❌ Underperformers
-| Sector | ETF | 1-Day Change |
-|---|---|---|
-| Communication Services | XLC | -0.27% |
-| Consumer Staples | XLP | -0.26% |
-| Health Care | XLV | -0.67% |
-| Energy | XLE | -1.58% |
+### Key Highlights:
+- 🔵 **Dow Jones** crossed and held above the **50,000** milestone — a psychologically significant level.
+- 🔵 **S&P 500** remains elevated above 7,400, reflecting broad market strength.
+- 🔵 **NASDAQ-100** at ~29,300 signals continued momentum in growth/tech-oriented stocks.
+- 🔵 **Russell 2000** at 2,817 indicates small-cap participation in the rally.
 
 ---
 
-## 🔍 Market Analysis & Key Takeaways
+## 📂 Sector Performance (1-Day % Change)
 
-### 1. 🚀 Risk-On Sentiment Dominates
-The broad market shows a **risk-on tone** today. Cyclical and growth sectors — Consumer Discretionary (+1.75%), Technology (+1.52%), and Industrials (+1.19%) — are leading the charge, suggesting investors are favoring growth over defensives.
-
-### 2. 🛢️ Energy Weakness Stands Out
-Energy (XLE) is the day's biggest laggard at **-1.58%**, potentially reflecting softening oil prices or demand concerns. This divergence from the broader bullish trend warrants monitoring.
-
-### 3. 🛡️ Defensive Sectors Under Pressure
-Traditionally defensive sectors — Health Care (-0.67%), Consumer Staples (-0.26%), and Communication Services (-0.27%) — are all in the red, consistent with the market's current risk-on appetite. Investors appear to be rotating out of defensives.
-
-### 4. 💰 Financials & Materials Show Strength
-Both Financials (+0.85%) and Materials (+0.88%) posting solid gains may indicate market confidence in economic activity and credit conditions.
-
-### 5. 🏠 Real Estate & Utilities Stable
-Real Estate (+0.71%) and Utilities (+0.55%) posting modest gains despite a risk-on day is a positive signal — it suggests rate sensitivity may be easing slightly.
+| Sector | ETF | 1-Day Change |
+|---|---|---|
+| Consumer Discretionary | XLY | ▲ +2.53% |
+| Technology | XLK | ▲ +2.25% |
+| Materials | XLB | ▲ +1.39% |
+| Industrials | XLI | ▲ +1.18% |
+| Real Estate | XLRE | ▲ +1.12% |
+| Financials | XLF | ▲ +1.10% |
+| Utilities | XLU | ▲ +0.38% |
+| Communication Services | XLC | ▲ +0.22% |
+| Health Care | XLV | ▼ -0.13% |
+| Consumer Staples | XLP | ▼ -0.66% |
+| Energy | XLE | ▼ -2.43% |
 
 ---
 
-## 📋 Summary
+## 🔍 Sector Analysis
 
-| Metric | Reading |
+### 🟢 Top Performers
+1. **Consumer Discretionary (XLY) +2.53%** — The day's strongest sector. Suggests consumers remain resilient and risk appetite is elevated.
+2. **Technology (XLK) +2.25%** — A strong showing from tech reinforces the growth-oriented nature of today's rally and supports the high NASDAQ-100 reading.
+3. **Materials (XLB) +1.39%** — Materials outperformance may signal expectations of continued economic activity and infrastructure demand.
+
+### 🔴 Underperformers
+1. **Energy (XLE) -2.43%** — The weakest sector by a notable margin. A significant pullback possibly driven by declining oil prices or demand concerns.
+2. **Consumer Staples (XLP) -0.66%** — Defensives lagging in a risk-on environment; investors rotating out of safe-haven sectors.
+3. **Health Care (XLV) -0.13%** — Marginally negative, relatively flat but still underperforming in today's broad rally.
+
+---
+
+## 📈 Market Sentiment Summary
+
+| Indicator | Reading |
 |---|---|
-| Overall Market Tone | 🟢 Bullish / Risk-On |
-| Advancing Sectors | 7 of 11 |
-| Declining Sectors | 4 of 11 |
-| Top Sector | Consumer Discretionary (XLY) +1.75% |
-| Weakest Sector | Energy (XLE) -1.58% |
-| Key Level to Watch | Dow Jones 50,000 |
+| Overall Bias | **Bullish / Risk-On** |
+| Sectors Advancing | 8 out of 11 |
+| Sectors Declining | 3 out of 11 |
+| Strongest Sector | Consumer Discretionary (+2.53%) |
+| Weakest Sector | Energy (-2.43%) |
 
 ---
 
-*Report generated by Market Analysis Agent. All data sourced from live market feeds. For informational purposes only.*
+## 💡 Key Takeaways
+
+- **Broad-based rally:** 8 of 11 sectors closed in positive territory, confirming widespread buying interest.
+- **Risk-on rotation:** Leadership from Consumer Discretionary and Technology, while defensive sectors (Staples, Health Care) lagged, reflects a classic risk-on market posture.
+- **Energy under pressure:** The -2.43% drop in Energy stands out as an outlier and warrants attention — it may reflect softness in crude oil prices or sector-specific headwinds.
+- **Dow at 50K:** The Dow Jones holding above 50,000 is a notable milestone and could attract further positive sentiment and media attention.
+
+---
+
+*Report generated by Market Analysis Agent. All data sourced directly from market data feeds. No figures were estimated or fabricated.*
