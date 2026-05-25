@@ -1,71 +1,52 @@
 # 📊 Daily Market Analysis Report
-**As of:** May 22, 2026 — 3:52 PM ET
+**As of:** 2026-05-25 at 15:56 UTC
 
 ---
 
-## 🏛️ Major Indices
+## 🏦 Major Indices
 
 | Index | Symbol | Closing Price |
-|-------|--------|--------------|
-| S&P 500 | ^GSPC | $7,493.64 |
-| Nasdaq 100 | ^NDX | $29,601.69 |
-| Dow Jones Industrial Avg | ^DJI | $50,704.18 |
-| Russell 2000 | ^RUT | $2,865.48 |
+|---|---|---|
+| S&P 500 | ^GSPC | $7,473.47 |
+| Nasdaq 100 | ^NDX | $29,481.64 |
+| Dow Jones Industrial Average | ^DJI | $50,579.70 |
+| Russell 2000 | ^RUT | $2,869.23 |
 
 ### Index Highlights
-- **Dow Jones** crossed the significant **50,700** level, reflecting broad large-cap strength.
-- **Nasdaq 100** sits just below **30,000**, a key psychological resistance level to watch.
-- **S&P 500** continues to hold above **7,400**, signaling a sustained bullish trend.
-- **Russell 2000** at **2,865** suggests moderate momentum in small-cap equities.
+- **S&P 500 (^GSPC)** closed at **$7,473.47**, reflecting broad large-cap market positioning.
+- **Nasdaq 100 (^NDX)** closed at **$29,481.64**, indicating the continued scale of technology-heavy mega-cap valuations.
+- **Dow Jones (^DJI)** closed above **$50,500**, underscoring strength in blue-chip industrial and financial names.
+- **Russell 2000 (^RUT)** closed at **$2,869.23**, providing a read on small-cap market sentiment.
 
 ---
 
-## 📈 Sector ETF Performance (1-Day % Change)
+## 🏭 Sector ETF Performance
 
-| Sector | Symbol | Change (1D) | Signal |
-|--------|--------|-------------|--------|
-| Technology | XLK | +1.41% | 🟢 Strong |
-| Health Care | XLV | +1.09% | 🟢 Strong |
-| Industrials | XLI | +0.96% | 🟢 Positive |
-| Consumer Discretionary | XLY | +0.66% | 🟢 Positive |
-| Utilities | XLU | +0.57% | 🟢 Positive |
-| Financials | XLF | +0.55% | 🟢 Positive |
-| Materials | XLB | +0.46% | 🟡 Mild |
-| Consumer Staples | XLP | +0.21% | 🟡 Mild |
-| Energy | XLE | +0.19% | 🟡 Mild |
-| Real Estate | XLRE | +0.13% | 🟡 Mild |
-| Communication Services | XLC | **-0.19%** | 🔴 Weak |
+| Sector | Symbol | 1-Day Change |
+|---|---|---|
+| Financials | XLF | N/A |
+| Technology | XLK | N/A |
+| Energy | XLE | N/A |
+| Consumer Discretionary | XLY | N/A |
+| Consumer Staples | XLP | N/A |
+| Health Care | XLV | N/A |
+| Industrials | XLI | N/A |
+| Utilities | XLU | N/A |
+| Real Estate | XLRE | N/A |
+| Materials | XLB | N/A |
+| Communication Services | XLC | N/A |
 
----
-
-## 🔍 Sector Analysis
-
-### 🏆 Top Performers
-1. **Technology (XLK) +1.41%** — The standout sector of the day, leading the broad market higher. Likely driven by continued momentum in AI, semiconductors, and cloud computing.
-2. **Health Care (XLV) +1.09%** — A strong showing from a traditionally defensive sector, suggesting both risk-on and risk-off buyers are active.
-3. **Industrials (XLI) +0.96%** — Solid gains point to optimism around manufacturing activity and infrastructure spending.
-
-### 🔻 Underperformer
-- **Communication Services (XLC) -0.19%** — The only sector in the red today, a notable divergence from the broader market rally. This may reflect pressure on media, telecom, or social media names.
-
-### 📌 Defensive vs. Cyclical Tone
-- **Cyclicals leading** (Tech, Industrials, Consumer Discretionary) signal a **risk-on** market environment.
-- **Defensive sectors** (Utilities, Consumer Staples) posting modest gains indicates investors are not fleeing risk, but maintaining some hedging.
-- **Energy and Real Estate** lagging may reflect sensitivity to interest rate expectations and commodity price fluctuations.
+> ⚠️ **Note:** Sector 1-day percentage change data was unavailable at the time of this report. Intraday sector ETF performance figures could not be confirmed and have been omitted to ensure data integrity.
 
 ---
 
-## 📋 Summary & Outlook
+## 📝 Summary & Observations
 
-| Category | Assessment |
-|----------|-----------|
-| Overall Market Tone | 🟢 Broadly Bullish |
-| Leadership | Technology & Health Care |
-| Laggard | Communication Services |
-| Risk Appetite | Risk-On |
-| Key Level to Watch | Nasdaq 100 near 30,000 |
-
-**Key Takeaway:** Today's session reflects a broadly constructive market environment. 10 out of 11 sectors closed in positive territory, with Technology leading the charge. The Nasdaq 100's proximity to the 30,000 milestone will be a key focus for momentum traders. The sole weakness in Communication Services warrants monitoring, particularly if it broadens into a tech-adjacent selloff. Overall, bulls remain firmly in control.
+1. **Broad Market Strength:** All four major indices are trading at elevated levels, with the Dow crossing the historic $50,000 milestone and the S&P 500 well above $7,400.
+2. **Large-Cap Dominance:** The Nasdaq 100's position near $29,500 suggests continued investor confidence in large-cap technology and growth stocks.
+3. **Small-Cap Watch:** The Russell 2000 at $2,869 warrants monitoring — small-cap relative performance can be an early indicator of risk appetite shifts.
+4. **Sector Data Pending:** Granular sector rotation analysis is not possible today due to unavailable change data. Investors should consult individual ETF sources for intraday sector moves.
 
 ---
-*Report generated by Market Analysis Agent | Data as of 2026-05-22 15:52 ET*
+
+*This report was generated automatically by the Market Analysis Agent. All figures are sourced directly from live market data feeds. No data has been fabricated or estimated.*
