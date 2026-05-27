@@ -1,53 +1,62 @@
-# 📈 Daily Market Analysis Report
-**As of:** 2026-05-26 at 4:51 PM ET
+# 📊 Daily Market Analysis Report
+**As of:** May 27, 2026 | 4:43 PM ET
 
 ---
 
-## 🏛️ Major Indices
+## 🏦 Major Indices
 
 | Index | Symbol | Closing Price |
 |-------|--------|--------------|
-| S&P 500 | ^GSPC | $7,509.26 |
-| Nasdaq 100 | ^NDX | $29,885.50 |
-| Dow Jones Industrial Average | ^DJI | $50,426.19 |
-| Russell 2000 | ^RUT | $2,917.94 |
+| S&P 500 | ^GSPC | 7,521.0 |
+| NASDAQ 100 | ^NDX | 29,965.1 |
+| Dow Jones Industrial Avg | ^DJI | 50,679.8 |
+| Russell 2000 | ^RUT | 2,925.0 |
 
 ### Index Highlights
-- **Dow Jones (^DJI)** sits above the psychologically significant **50,000** milestone at $50,426.19, reflecting broad large-cap strength.
-- **S&P 500 (^GSPC)** at $7,509.26 continues to hold elevated levels, indicative of sustained market participation across large-cap equities.
-- **Nasdaq 100 (^NDX)** at $29,885.50 remains just under the **30,000** mark, a key level to watch for a potential breakout or resistance.
-- **Russell 2000 (^RUT)** at $2,917.94 reflects moderate performance in small-cap equities, approaching but not yet breaching the **3,000** threshold.
+- **S&P 500** closed at **7,521.0**, holding above the psychologically significant 7,500 level.
+- **NASDAQ 100** approached but did not breach the **30,000** milestone, closing just below at 29,965.
+- **Dow Jones** remains elevated above **50,000**, reflecting continued large-cap strength.
+- **Russell 2000** at **2,925.0** indicates moderate small-cap participation in the broader market.
 
 ---
 
-## 🏭 Sector ETF Performance
+## 🏭 Sector Performance (1-Day % Change)
 
-| Sector | Symbol | 1-Day Change |
-|--------|--------|-------------|
-| Financials | XLF | N/A |
-| Technology | XLK | N/A |
-| Energy | XLE | N/A |
-| Consumer Discretionary | XLY | N/A |
-| Consumer Staples | XLP | N/A |
-| Health Care | XLV | N/A |
-| Industrials | XLI | N/A |
-| Utilities | XLU | N/A |
-| Real Estate | XLRE | N/A |
-| Materials | XLB | N/A |
-| Communication Services | XLC | N/A |
+| Sector | Symbol | Change (1D) | Trend |
+|--------|--------|-------------|-------|
+| Consumer Discretionary | XLY | +1.81% | 🟢 |
+| Consumer Staples | XLP | +1.39% | 🟢 |
+| Communication Services | XLC | +0.91% | 🟢 |
+| Materials | XLB | +0.37% | 🟢 |
+| Health Care | XLV | +0.16% | 🟢 |
+| Industrials | XLI | +0.16% | 🟢 |
+| Real Estate | XLRE | -0.03% | 🔴 |
+| Utilities | XLU | -0.51% | 🔴 |
+| Technology | XLK | -0.51% | 🔴 |
+| Financials | XLF | -0.94% | 🔴 |
+| Energy | XLE | -1.15% | 🔴 |
 
-> ⚠️ **Note:** Sector 1-day percentage change data was unavailable at the time of this report. Sector-level directional analysis cannot be provided for today's session. This may be due to a market holiday, data feed delay, or a closure (May 26, 2026 falls on a Tuesday — please verify if markets were in a shortened or holiday-affected session).
+### Sector Highlights
+
+#### 🟢 Leaders
+- **Consumer Discretionary (XLY, +1.81%)** was the clear top performer of the day, suggesting growing consumer confidence and discretionary spending appetite.
+- **Consumer Staples (XLP, +1.39%)** also surged, an unusual pairing with Discretionary — both defensive and growth-oriented consumer plays rallied together.
+- **Communication Services (XLC, +0.91%)** added solid gains, likely buoyed by media and tech-adjacent names.
+
+#### 🔴 Laggards
+- **Energy (XLE, -1.15%)** was the weakest sector, potentially reflecting softening oil prices or demand concerns.
+- **Financials (XLF, -0.94%)** declined notably, possibly driven by interest rate expectations or credit concerns.
+- **Technology (XLK, -0.51%)** slipped modestly, keeping the NASDAQ 100 just shy of the 30,000 threshold.
 
 ---
 
-## 📊 Summary & Key Takeaways
+## 📌 Key Takeaways
 
-1. **Milestone Watch:** The Dow is trading above 50,000 and the Nasdaq 100 is approaching 30,000 — both are significant psychological and technical levels for investors.
-2. **Broad Market Tone:** Index levels suggest the overall market is trading at historically elevated valuations, warranting attention to risk management.
-3. **Small-Cap Gap:** The Russell 2000's proximity to 3,000 but failure to breach it may indicate relative underperformance compared to large-cap indices — a potential divergence worth monitoring.
-4. **Sector Data Unavailable:** Without sector performance data, rotation trends cannot be identified today. Investors should consult updated sector feeds before making allocation decisions.
+1. **Defensive + Discretionary Rally:** The simultaneous outperformance of Consumer Staples and Consumer Discretionary is noteworthy — it may reflect a broad rotation into consumer-facing sectors away from rate-sensitive or commodity-linked names.
+2. **Energy Weakness:** Energy's underperformance (-1.15%) stands out as the worst sector of the day and may warrant monitoring for trend continuation.
+3. **Tech Consolidation:** Despite a minor pullback, the NASDAQ 100 is knocking on the door of **30,000** — a key level to watch.
+4. **Market Breadth:** With 6 of 11 sectors in positive territory, the market showed slightly bullish breadth, though the declines in heavyweight sectors (Tech, Financials) tempered index gains.
 
 ---
 
-## ⚠️ Disclaimer
-*This report is generated from real-time data feeds for informational purposes only. It does not constitute financial advice. Always conduct your own due diligence before making investment decisions.*
+*Report generated by Market Analysis Agent. Data sourced from real-time market feeds.*
