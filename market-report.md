@@ -1,62 +1,61 @@
-# 📊 Daily Market Analysis Report
-**As of:** May 27, 2026 | 4:43 PM ET
+# 📈 Daily Market Analysis Report
+**As of:** May 28, 2026 — Market Close (17:00 ET)
 
 ---
 
-## 🏦 Major Indices
+## 🏛️ Major Indices
 
 | Index | Symbol | Closing Price |
-|-------|--------|--------------|
-| S&P 500 | ^GSPC | 7,521.0 |
-| NASDAQ 100 | ^NDX | 29,965.1 |
-| Dow Jones Industrial Avg | ^DJI | 50,679.8 |
-| Russell 2000 | ^RUT | 2,925.0 |
-
-### Index Highlights
-- **S&P 500** closed at **7,521.0**, holding above the psychologically significant 7,500 level.
-- **NASDAQ 100** approached but did not breach the **30,000** milestone, closing just below at 29,965.
-- **Dow Jones** remains elevated above **50,000**, reflecting continued large-cap strength.
-- **Russell 2000** at **2,925.0** indicates moderate small-cap participation in the broader market.
+|---|---|---|
+| S&P 500 | ^GSPC | 7,565.25 |
+| Nasdaq 100 | ^NDX | 30,254.65 |
+| Dow Jones Industrial Average | ^DJI | 50,710.86 |
+| Russell 2000 | ^RUT | 2,940.28 |
 
 ---
 
-## 🏭 Sector Performance (1-Day % Change)
+## 🏢 Sector Performance (1-Day % Change)
 
-| Sector | Symbol | Change (1D) | Trend |
-|--------|--------|-------------|-------|
-| Consumer Discretionary | XLY | +1.81% | 🟢 |
-| Consumer Staples | XLP | +1.39% | 🟢 |
-| Communication Services | XLC | +0.91% | 🟢 |
-| Materials | XLB | +0.37% | 🟢 |
-| Health Care | XLV | +0.16% | 🟢 |
-| Industrials | XLI | +0.16% | 🟢 |
-| Real Estate | XLRE | -0.03% | 🔴 |
-| Utilities | XLU | -0.51% | 🔴 |
-| Technology | XLK | -0.51% | 🔴 |
-| Financials | XLF | -0.94% | 🔴 |
-| Energy | XLE | -1.15% | 🔴 |
-
-### Sector Highlights
-
-#### 🟢 Leaders
-- **Consumer Discretionary (XLY, +1.81%)** was the clear top performer of the day, suggesting growing consumer confidence and discretionary spending appetite.
-- **Consumer Staples (XLP, +1.39%)** also surged, an unusual pairing with Discretionary — both defensive and growth-oriented consumer plays rallied together.
-- **Communication Services (XLC, +0.91%)** added solid gains, likely buoyed by media and tech-adjacent names.
-
-#### 🔴 Laggards
-- **Energy (XLE, -1.15%)** was the weakest sector, potentially reflecting softening oil prices or demand concerns.
-- **Financials (XLF, -0.94%)** declined notably, possibly driven by interest rate expectations or credit concerns.
-- **Technology (XLK, -0.51%)** slipped modestly, keeping the NASDAQ 100 just shy of the 30,000 threshold.
+| Sector | ETF | Change (1D) |
+|---|---|---|
+| Technology | XLK | 🟢 +1.68% |
+| Health Care | XLV | 🟢 +1.34% |
+| Materials | XLB | 🟢 +0.54% |
+| Real Estate | XLRE | 🟢 +0.25% |
+| Industrials | XLI | 🟢 +0.20% |
+| Energy | XLE | 🟢 +0.17% |
+| Consumer Staples | XLP | 🟢 +0.12% |
+| Communication Services | XLC | 🟢 +0.05% |
+| Consumer Discretionary | XLY | 🟢 +0.05% |
+| Utilities | XLU | 🔴 -0.14% |
+| Financials | XLF | 🔴 -0.35% |
 
 ---
 
-## 📌 Key Takeaways
+## 📊 Analysis & Key Takeaways
 
-1. **Defensive + Discretionary Rally:** The simultaneous outperformance of Consumer Staples and Consumer Discretionary is noteworthy — it may reflect a broad rotation into consumer-facing sectors away from rate-sensitive or commodity-linked names.
-2. **Energy Weakness:** Energy's underperformance (-1.15%) stands out as the worst sector of the day and may warrant monitoring for trend continuation.
-3. **Tech Consolidation:** Despite a minor pullback, the NASDAQ 100 is knocking on the door of **30,000** — a key level to watch.
-4. **Market Breadth:** With 6 of 11 sectors in positive territory, the market showed slightly bullish breadth, though the declines in heavyweight sectors (Tech, Financials) tempered index gains.
+### Market Breadth
+- **9 out of 11 sectors** closed in positive territory today, suggesting broad-based bullish sentiment across the market.
+- Only **Utilities (XLU)** and **Financials (XLF)** posted modest declines.
+
+### Top Performers
+- **Technology (XLK, +1.68%)** led the market today with a strong gain, reflecting continued investor confidence in the tech sector.
+- **Health Care (XLV, +1.34%)** was the second-best performer, signaling potential defensive rotation combined with growth appetite.
+- **Materials (XLB, +0.54%)** also outperformed, possibly driven by commodity demand or industrial activity.
+
+### Laggards
+- **Financials (XLF, -0.35%)** was the worst-performing sector. This could reflect concerns about interest rate expectations or credit conditions.
+- **Utilities (XLU, -0.14%)** declined slightly, which is common in a risk-on environment as investors rotate away from defensive plays.
+
+### Macro Observations
+- The **S&P 500 at 7,565** and **Dow Jones at 50,710** reflect elevated valuations, consistent with a sustained bull market environment.
+- The **Nasdaq 100 at 30,254** aligns with Tech's strong day, confirming large-cap growth leadership.
+- The **Russell 2000 at 2,940** shows small-cap equities remain engaged, though the mixed sector signals warrant monitoring.
+
+### Sentiment Summary
+> **Overall Tone: Risk-On 🟢**
+> The market exhibits a clear risk-on posture today. Leadership from high-beta sectors (Technology, Health Care) alongside weakness in defensive sectors (Utilities, Financials) points to investor confidence and appetite for growth.
 
 ---
 
-*Report generated by Market Analysis Agent. Data sourced from real-time market feeds.*
+*Report generated by Market Analysis Agent. Data sourced from live market feeds. All figures reflect end-of-day values.*
