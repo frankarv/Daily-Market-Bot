@@ -1,61 +1,58 @@
-# 📈 Daily Market Analysis Report
-**As of:** May 29, 2026 | 4:51 PM ET
+# 📊 Daily Market Analysis Report
+**As of:** June 1, 2026 | 18:46 UTC
 
 ---
 
 ## 🏛️ Major Indices
 
-| Index | Symbol | Close |
+| Index | Symbol | Closing Price |
 |---|---|---|
-| S&P 500 | ^GSPC | 7,587.48 |
-| Nasdaq 100 | ^NDX | 30,342.67 |
-| Dow Jones Industrial Avg | ^DJI | 51,018.20 |
-| Russell 2000 | ^RUT | 2,918.19 |
+| S&P 500 | ^GSPC | 7,614.65 |
+| Nasdaq 100 | ^NDX | 30,578.42 |
+| Dow Jones Industrial Average | ^DJI | 51,062.58 |
+| Russell 2000 | ^RUT | 2,918.08 |
 
 ---
 
-## 🗂️ Sector ETF Performance (1-Day % Change)
+## 🏭 Sector ETF Performance (1-Day % Change)
 
 | Sector | Symbol | 1-Day Change |
 |---|---|---|
-| 🟢 Technology | XLK | +2.04% |
-| 🟢 Financials | XLF | +0.83% |
-| 🔴 Industrials | XLI | -0.13% |
-| 🔴 Materials | XLB | -0.05% |
-| 🔴 Utilities | XLU | -0.47% |
-| 🔴 Consumer Discretionary | XLY | -0.60% |
-| 🔴 Communication Services | XLC | -0.74% |
-| 🔴 Real Estate | XLRE | -0.74% |
-| 🔴 Health Care | XLV | -0.97% |
-| 🔴 Energy | XLE | -1.16% |
-| 🔴 Consumer Staples | XLP | -1.56% |
+| 🟢 Technology | XLK | +2.58% |
+| 🟢 Energy | XLE | +1.80% |
+| 🟢 Communication Services | XLC | +0.22% |
+| 🔴 Financials | XLF | -0.25% |
+| 🔴 Materials | XLB | -0.23% |
+| 🔴 Industrials | XLI | -0.17% |
+| 🔴 Health Care | XLV | -1.03% |
+| 🔴 Consumer Staples | XLP | -1.07% |
+| 🔴 Real Estate | XLRE | -1.10% |
+| 🔴 Consumer Discretionary | XLY | -1.82% |
+| 🔴 Utilities | XLU | -2.48% |
 
 ---
 
-## 📊 Analysis & Key Takeaways
+## 📝 Analysis & Key Takeaways
 
-### Market Breadth
-- **Advancers vs. Decliners:** Only **2 out of 11 sectors** closed in positive territory today, suggesting **broad market weakness** despite potentially firm index levels.
-- **Defensive sectors underperformed:** Consumer Staples (-1.56%), Energy (-1.16%), and Health Care (-0.97%) — typically considered defensive plays — were among the hardest hit, indicating a **rotation away from defensives**.
+### Market Overview
+Major indices are posting significant levels, with the **S&P 500 at 7,614.65**, the **Nasdaq 100 at 30,578.42**, the **Dow Jones at 51,062.58**, and the small-cap **Russell 2000 at 2,918.08**.
 
-### Top Performer: Technology (XLK) +2.04%
-- Technology was the standout winner of the session with a gain of over **2%**, providing a significant tailwind to cap-weighted indices like the **S&P 500** and **Nasdaq 100**, which are heavily weighted toward tech.
+### Sector Highlights
 
-### Notable Laggards
-- **Consumer Staples (XLP) -1.56%:** The steepest decline of the day signals possible **risk-on sentiment** or profit-taking in traditionally "safe" areas.
-- **Energy (XLE) -1.16%:** Weakness in energy may reflect softening commodity prices or demand outlook concerns.
-- **Health Care (XLV) -0.97%:** Continued pressure on healthcare could reflect regulatory or earnings concerns.
+#### 🟢 Leaders
+- **Technology (XLK) +2.58%** — The standout performer of the day, reflecting strong investor appetite for tech stocks and possibly driven by positive earnings or macro tailwinds.
+- **Energy (XLE) +1.80%** — A solid gain suggesting strength in commodity prices or favorable supply-demand dynamics.
+- **Communication Services (XLC) +0.22%** — Modest positive performance, benefiting from some spillover from tech strength.
 
-### Small Caps
-- The **Russell 2000 (^RUT)** at **2,918.19** reflects small-cap positioning; investors should monitor whether small caps can sustain levels given the broad sector weakness observed today.
+#### 🔴 Laggards
+- **Utilities (XLU) -2.48%** — The worst performer today, likely reflecting a rotation away from defensive/yield-sensitive sectors.
+- **Consumer Discretionary (XLY) -1.82%** — Notable decline suggesting concerns about consumer spending or risk-off sentiment in cyclical names.
+- **Real Estate (XLRE) -1.10%** — Weakness possibly tied to interest rate sensitivity.
+- **Consumer Staples (XLP) -1.07%** and **Health Care (XLV) -1.03%** — Defensive sectors underperforming, consistent with a "risk-on" narrative favoring growth and cyclical sectors like Tech and Energy.
 
----
-
-## ⚠️ Risk Considerations
-- **Narrow leadership:** With only Technology and Financials advancing, today's market gains (if any) may be driven by a **narrow set of large-cap tech names**, making the rally potentially fragile.
-- **Defensive weakness:** Simultaneous declines in Consumer Staples, Utilities, and Health Care could signal either high investor confidence (risk-on) or indiscriminate selling pressure.
-- **Sector rotation watch:** Monitor whether the Technology momentum is sustainable or a one-day outlier.
+### 🔍 Broad Theme
+Today's session reflects a **bifurcated market**: **growth and cyclical sectors (Technology, Energy) are in favor**, while **defensive sectors (Utilities, Consumer Staples, Health Care) are being sold off**. This classic **risk-on rotation** suggests investor confidence in near-term economic momentum. The underperformance of Consumer Discretionary, however, is worth monitoring as a potential signal of uneven consumer health.
 
 ---
 
-*Report generated by Market Analysis Agent. All data sourced directly from live market feeds. Past performance is not indicative of future results.*
+*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
