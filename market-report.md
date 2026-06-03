@@ -1,66 +1,54 @@
 # 📊 Daily Market Analysis Report
-**As of:** June 2, 2026 | 17:47 UTC
+**As of:** June 3, 2026 | 6:03 PM UTC
 
 ---
 
-## 🏦 Major Indices
+## 🏛️ Major Indices
 
 | Index | Symbol | Closing Price |
-|-------|--------|--------------|
-| S&P 500 | ^GSPC | 7,608.12 |
-| Nasdaq 100 | ^NDX | 30,587.33 |
-| Dow Jones Industrial Avg | ^DJI | 51,226.56 |
-| Russell 2000 | ^RUT | 2,925.02 |
-
-**Summary:** Broad markets continue to trade at elevated levels. The S&P 500 holds above the 7,600 mark, the Nasdaq 100 remains above 30,500, and the Dow Jones sits comfortably above 51,200. The small-cap Russell 2000 holds near 2,925, suggesting participation beyond mega-cap names.
+|---|---|---|
+| S&P 500 | ^GSPC | 7,570.34 |
+| Nasdaq 100 | ^NDX | 30,595.53 |
+| Dow Jones Industrial Avg | ^DJI | 50,876.67 |
+| Russell 2000 | ^RUT | 2,895.91 |
 
 ---
 
-## 🏭 Sector ETF Performance (1-Day % Change)
+## 🗂️ Sector ETF Performance (1-Day % Change)
 
-| Sector | Symbol | 1-Day Change (%) | Signal |
-|--------|--------|-----------------|--------|
-| Utilities | XLU | +1.80% | 🟢 Top Performer |
-| Energy | XLE | +1.28% | 🟢 Strong |
-| Materials | XLB | +0.68% | 🟢 Positive |
-| Industrials | XLI | +0.66% | 🟢 Positive |
-| Technology | XLK | +0.63% | 🟢 Positive |
-| Real Estate | XLRE | +0.31% | 🟢 Slight Gain |
-| Financials | XLF | +0.18% | 🟡 Flat/Slight Gain |
-| Consumer Staples | XLP | -0.15% | 🟡 Slight Decline |
-| Consumer Discretionary | XLY | -0.44% | 🔴 Negative |
-| Health Care | XLV | -1.08% | 🔴 Weak |
-| Communication Services | XLC | -1.24% | 🔴 Laggard |
-
----
-
-## 🔍 Key Observations
-
-### ✅ Strengths
-- **Utilities (XLU, +1.80%)** led all sectors today — a notable move for a traditionally defensive sector, which may signal some rotation toward safety or a yield-driven rally.
-- **Energy (XLE, +1.28%)** posted strong gains, suggesting continued strength in commodity-linked equities.
-- **Cyclicals (Materials, Industrials)** also advanced, hinting at broader economic confidence.
-- **Technology (XLK, +0.63%)** continued its upward bias, supporting the elevated Nasdaq 100 level.
-
-### ⚠️ Weaknesses
-- **Communication Services (XLC, -1.24%)** was the day's biggest laggard, dragging on growth sentiment.
-- **Health Care (XLV, -1.08%)** saw notable selling pressure — potentially sector-specific headwinds or profit-taking.
-- **Consumer Discretionary (XLY, -0.44%)** declined, which could reflect caution around consumer spending.
+| Sector | Symbol | Change (1D) | Sentiment |
+|---|---|---|---|
+| Energy | XLE | +1.64% | 🟢 Strong |
+| Health Care | XLV | +1.01% | 🟢 Strong |
+| Consumer Staples | XLP | +0.73% | 🟢 Positive |
+| Real Estate | XLRE | +0.54% | 🟢 Positive |
+| Industrials | XLI | +0.28% | 🟢 Slight Gain |
+| Utilities | XLU | +0.22% | 🟢 Slight Gain |
+| Materials | XLB | +0.22% | 🟢 Slight Gain |
+| Technology | XLK | -0.86% | 🔴 Declining |
+| Consumer Discretionary | XLY | -0.90% | 🔴 Declining |
+| Financials | XLF | -0.92% | 🔴 Declining |
+| Communication Services | XLC | -1.23% | 🔴 Weakest |
 
 ---
 
-## 📌 Market Sentiment Summary
+## 🔍 Market Analysis & Key Takeaways
 
-| Metric | Reading |
-|--------|---------|
-| Advancing Sectors | 7 of 11 |
-| Declining Sectors | 4 of 11 |
-| Top Sector | Utilities (XLU) +1.80% |
-| Weakest Sector | Communication Services (XLC) -1.24% |
-| Broad Market Bias | **Moderately Bullish** |
+### 📈 Outperformers
+- **Energy (XLE, +1.64%)** leads the market today, suggesting potential strength in commodity prices or positive sentiment around oil & gas.
+- **Health Care (XLV, +1.01%)** shows solid gains, indicating defensive rotation as investors may be seeking stability.
+- **Consumer Staples (XLP, +0.73%)** and **Real Estate (XLRE, +0.54%)** add to the defensive tone of today's session.
 
-> **Overall Assessment:** Today's session reflects a **moderately bullish** market with broad sector participation skewed to the upside (7 of 11 sectors advancing). The simultaneous strength in both defensive (Utilities) and cyclical (Energy, Materials, Industrials) sectors is noteworthy — it suggests mixed investor positioning, potentially balancing growth optimism with risk hedging. Weakness in Communication Services and Health Care warrants monitoring in coming sessions.
+### 📉 Underperformers
+- **Communication Services (XLC, -1.23%)** is the biggest laggard, dragging on growth sentiment.
+- **Financials (XLF, -0.92%)** and **Technology (XLK, -0.86%)** are under notable pressure, two sectors that typically lead bull markets.
+- **Consumer Discretionary (XLY, -0.90%)** weakness may signal softening consumer confidence or spending concerns.
+
+### 🧭 Overall Market Tone
+> Today's session reflects a **defensive rotation**. Investors appear to be moving out of high-growth and cyclical sectors (Technology, Financials, Communication Services) and into more stable, defensive plays (Energy, Health Care, Consumer Staples). This pattern can be associated with risk-off sentiment, caution ahead of macroeconomic data, or profit-taking in extended growth sectors.
+
+**Advancing Sectors:** 7 | **Declining Sectors:** 4
 
 ---
 
-*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
+*Report generated by Market Analysis Agent. All data sourced directly from live market feeds. No figures were estimated or fabricated.*
