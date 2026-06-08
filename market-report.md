@@ -1,68 +1,70 @@
 # 📊 Daily Market Analysis Report
-**As of:** June 5, 2026 | 4:07 PM ET
+**As of:** June 8, 2026 | 4:52 PM ET
 
 ---
 
-## 🏛️ Major Indices
+## 🏦 Major Indices
 
 | Index | Symbol | Closing Price |
-|---|---|---|
-| S&P 500 | ^GSPC | 7,468.89 |
-| Nasdaq 100 | ^NDX | 29,556.47 |
-| Dow Jones Industrial Average | ^DJI | 51,211.16 |
-| Russell 2000 | ^RUT | 2,871.17 |
+|-------|--------|--------------|
+| S&P 500 | ^GSPC | 7,438.45 |
+| Nasdaq 100 | ^NDX | 29,565.29 |
+| Dow Jones Industrial Average | ^DJI | 50,919.40 |
+| Russell 2000 | ^RUT | 2,870.24 |
 
 ---
 
-## 🏭 Sector Performance (1-Day % Change)
+## 🔍 Sector ETF Performance (1-Day % Change)
 
-| Sector | Symbol | Change (1D) | Trend |
-|---|---|---|---|
-| Consumer Staples | XLP | +1.71% | 🟢 |
-| Health Care | XLV | +1.50% | 🟢 |
-| Utilities | XLU | +0.91% | 🟢 |
-| Real Estate | XLRE | +0.78% | 🟢 |
-| Financials | XLF | -0.11% | 🔴 |
-| Industrials | XLI | -0.52% | 🔴 |
-| Communication Services | XLC | -1.05% | 🔴 |
-| Consumer Discretionary | XLY | -1.04% | 🔴 |
-| Energy | XLE | -1.16% | 🔴 |
-| Materials | XLB | -1.57% | 🔴 |
-| Technology | XLK | -4.38% | 🔴 |
-
----
-
-## 🔍 Analysis & Key Takeaways
-
-### 1. 📉 Tech Under Significant Pressure
-Technology (XLK) was today's worst-performing sector by a wide margin, dropping **-4.38%**. This is a notable single-day decline and likely weighed heavily on the Nasdaq 100, which closed at **29,556.47**.
-
-### 2. 🛡️ Defensive Rotation in Play
-The day's winners were classically **defensive sectors**:
-- **Consumer Staples (+1.71%)** — investors sought stability in everyday-goods companies.
-- **Health Care (+1.50%)** — a safe-haven sector benefitting from risk-off sentiment.
-- **Utilities (+0.91%)** and **Real Estate (+0.78%)** also attracted buyers amid broader uncertainty.
-
-This pattern of defensive outperformance strongly suggests a **risk-off sentiment** in today's session.
-
-### 3. 📊 Broad Market Weakness
-**7 out of 11 sectors** closed in negative territory, indicating broad-based selling pressure rather than isolated sector weakness. Cyclicals such as Energy (-1.16%), Materials (-1.57%), and Consumer Discretionary (-1.04%) all declined.
-
-### 4. 🏦 Financials Relatively Resilient
-Financials (XLF) posted a marginal decline of only **-0.11%**, suggesting that while sentiment was broadly negative, the financial sector largely held its ground.
+| Sector | Symbol | 1-Day Change |
+|--------|--------|-------------|
+| 🟢 Technology | XLK | +2.97% |
+| 🟢 Energy | XLE | +1.14% |
+| 🟢 Consumer Discretionary | XLY | +0.68% |
+| 🟡 Industrials | XLI | -0.01% |
+| 🔴 Financials | XLF | -0.18% |
+| 🔴 Health Care | XLV | -0.17% |
+| 🔴 Communication Services | XLC | -0.64% |
+| 🔴 Consumer Staples | XLP | -0.37% |
+| 🔴 Materials | XLB | -1.12% |
+| 🔴 Real Estate | XLRE | -1.26% |
+| 🔴 Utilities | XLU | -1.52% |
 
 ---
 
-## 📋 Summary
+## 📈 Market Analysis & Key Takeaways
 
-| Metric | Value |
-|---|---|
-| Best Sector | Consumer Staples (XLP) +1.71% |
-| Worst Sector | Technology (XLK) -4.38% |
-| Sectors Advancing | 4 |
-| Sectors Declining | 7 |
-| Market Sentiment | ⚠️ Risk-Off / Defensive |
+### Overall Market Sentiment: **Cautiously Mixed / Risk-On in Select Areas**
+
+### 🔑 Key Observations
+
+1. **Technology Dominates:** XLK surged **+2.97%**, making it the clear outperformer of the day. This strong move likely drove broad index gains and signals continued investor appetite for growth and tech-driven earnings stories.
+
+2. **Energy Shows Strength:** XLE gained **+1.14%**, suggesting positive sentiment around commodity prices or macro supply dynamics. This is a secondary pillar of today's strength.
+
+3. **Consumer Discretionary Holds Up:** XLY's **+0.68%** gain reflects modest consumer confidence or optimism around spending resilience.
+
+4. **Industrials Flat:** XLI's near-zero change (**-0.01%**) indicates a neutral stance — neither risk-on nor risk-off from this cyclical sector.
+
+5. **Defensive Sectors Under Pressure:** Utilities (**-1.52%**), Real Estate (**-1.26%**), and Materials (**-1.12%**) led declines. The sell-off in defensive, rate-sensitive sectors (Utilities, REITs) may reflect rising rate expectations or a rotation away from safe havens toward growth.
+
+6. **Consumer Staples & Communication Services Lag:** Modest declines in XLP (**-0.37%**) and XLC (**-0.64%**) reinforce the rotation narrative away from defensive and income-oriented plays.
 
 ---
 
-*Data sourced from live market feeds. Report generated automatically by Market Analysis Agent.*
+### 📌 Sector Rotation Summary
+
+| Theme | Sectors |
+|-------|---------|
+| **Buying (Risk-On)** | Technology, Energy, Consumer Discretionary |
+| **Neutral** | Industrials |
+| **Selling (Defensive/Rate-Sensitive)** | Utilities, Real Estate, Materials, Consumer Staples |
+
+---
+
+### 💡 Summary
+
+Today's session tells a clear story: **investors rotated into growth and cyclical sectors** — particularly Technology — while **offloading defensive and rate-sensitive assets**. The magnitude of XLK's move (+2.97%) is notable and may reflect positive catalysts in the tech space. The weakness in Utilities and Real Estate suggests the market is pricing in a higher-for-longer rate environment or simply de-risking out of yield proxies. Overall, the **risk-on tone is selective**, concentrated in tech and energy rather than broad-based.
+
+---
+*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
