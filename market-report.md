@@ -1,70 +1,69 @@
 # 📊 Daily Market Analysis Report
-**As of:** June 8, 2026 | 4:52 PM ET
+**As of:** June 9, 2026 | 4:11 PM ET
 
 ---
 
 ## 🏦 Major Indices
 
 | Index | Symbol | Closing Price |
-|-------|--------|--------------|
-| S&P 500 | ^GSPC | 7,438.45 |
-| Nasdaq 100 | ^NDX | 29,565.29 |
-| Dow Jones Industrial Average | ^DJI | 50,919.40 |
-| Russell 2000 | ^RUT | 2,870.24 |
+|---|---|---|
+| S&P 500 | ^GSPC | 7,296.47 |
+| Nasdaq 100 | ^NDX | 28,586.37 |
+| Dow Jones Industrial Average | ^DJI | 50,492.44 |
+| Russell 2000 | ^RUT | 2,833.75 |
 
 ---
 
-## 🔍 Sector ETF Performance (1-Day % Change)
+## 🗂️ Sector ETF Performance (1-Day % Change)
 
 | Sector | Symbol | 1-Day Change |
-|--------|--------|-------------|
-| 🟢 Technology | XLK | +2.97% |
-| 🟢 Energy | XLE | +1.14% |
-| 🟢 Consumer Discretionary | XLY | +0.68% |
-| 🟡 Industrials | XLI | -0.01% |
-| 🔴 Financials | XLF | -0.18% |
-| 🔴 Health Care | XLV | -0.17% |
-| 🔴 Communication Services | XLC | -0.64% |
-| 🔴 Consumer Staples | XLP | -0.37% |
-| 🔴 Materials | XLB | -1.12% |
-| 🔴 Real Estate | XLRE | -1.26% |
-| 🔴 Utilities | XLU | -1.52% |
+|---|---|---|
+| 🟢 Real Estate | XLRE | +1.96% |
+| 🟢 Consumer Staples | XLP | +1.64% |
+| 🟢 Health Care | XLV | +0.99% |
+| 🟢 Utilities | XLU | +0.92% |
+| 🟢 Financials | XLF | +0.40% |
+| 🟢 Materials | XLB | +0.12% |
+| 🔴 Communication Services | XLC | -0.09% |
+| 🔴 Consumer Discretionary | XLY | -0.16% |
+| 🔴 Industrials | XLI | -0.45% |
+| 🔴 Energy | XLE | -2.41% |
+| 🔴 Technology | XLK | -4.38% |
 
 ---
 
-## 📈 Market Analysis & Key Takeaways
+## 📝 Analysis & Key Takeaways
 
-### Overall Market Sentiment: **Cautiously Mixed / Risk-On in Select Areas**
+### 🔴 Risk-Off Sentiment Dominates Growth Sectors
+Today's session showed a clear **rotation away from growth and risk assets**. Technology (XLK) was the **worst-performing sector**, dropping **-4.38%** — a significant single-day decline that likely weighed on the Nasdaq 100. Energy (XLE) also sold off sharply at **-2.41%**, suggesting potential concerns around commodity demand or macro headwinds.
 
-### 🔑 Key Observations
+### 🟢 Defensive Sectors Lead the Day
+Investors appeared to seek shelter in **defensive and yield-sensitive sectors**:
+- **Real Estate (XLRE)** led all sectors with a gain of **+1.96%**, benefiting from potential rate-sensitive positioning.
+- **Consumer Staples (XLP)** rose **+1.64%**, reflecting a preference for non-cyclical, stable earnings.
+- **Health Care (XLV)** and **Utilities (XLU)** both posted gains near **+1%**, reinforcing the defensive tilt.
 
-1. **Technology Dominates:** XLK surged **+2.97%**, making it the clear outperformer of the day. This strong move likely drove broad index gains and signals continued investor appetite for growth and tech-driven earnings stories.
+### ⚖️ Rotation Theme
+The day's sector performance paints a classic **defensive rotation** narrative:
+- **Winners:** Real Estate, Staples, Health Care, Utilities — traditionally lower-beta, income-oriented sectors.
+- **Losers:** Technology, Energy, Industrials — higher-beta, cyclical sectors.
 
-2. **Energy Shows Strength:** XLE gained **+1.14%**, suggesting positive sentiment around commodity prices or macro supply dynamics. This is a secondary pillar of today's strength.
+This pattern often signals **investor caution** regarding near-term growth prospects or macro uncertainty.
 
-3. **Consumer Discretionary Holds Up:** XLY's **+0.68%** gain reflects modest consumer confidence or optimism around spending resilience.
-
-4. **Industrials Flat:** XLI's near-zero change (**-0.01%**) indicates a neutral stance — neither risk-on nor risk-off from this cyclical sector.
-
-5. **Defensive Sectors Under Pressure:** Utilities (**-1.52%**), Real Estate (**-1.26%**), and Materials (**-1.12%**) led declines. The sell-off in defensive, rate-sensitive sectors (Utilities, REITs) may reflect rising rate expectations or a rotation away from safe havens toward growth.
-
-6. **Consumer Staples & Communication Services Lag:** Modest declines in XLP (**-0.37%**) and XLC (**-0.64%**) reinforce the rotation narrative away from defensive and income-oriented plays.
-
----
-
-### 📌 Sector Rotation Summary
-
-| Theme | Sectors |
-|-------|---------|
-| **Buying (Risk-On)** | Technology, Energy, Consumer Discretionary |
-| **Neutral** | Industrials |
-| **Selling (Defensive/Rate-Sensitive)** | Utilities, Real Estate, Materials, Consumer Staples |
+### 📌 Sector Scorecard Summary
+| Category | Advancing Sectors | Declining Sectors |
+|---|---|---|
+| Count | 6 | 5 |
+| Best | Real Estate (+1.96%) | Technology (-4.38%) |
+| Worst | Materials (+0.12%) | Communication Services (-0.09%) |
 
 ---
 
-### 💡 Summary
-
-Today's session tells a clear story: **investors rotated into growth and cyclical sectors** — particularly Technology — while **offloading defensive and rate-sensitive assets**. The magnitude of XLK's move (+2.97%) is notable and may reflect positive catalysts in the tech space. The weakness in Utilities and Real Estate suggests the market is pricing in a higher-for-longer rate environment or simply de-risking out of yield proxies. Overall, the **risk-on tone is selective**, concentrated in tech and energy rather than broad-based.
+## ⚠️ Key Risks to Monitor
+- **Technology weakness**: A -4.38% single-day drop in XLK warrants close attention; watch for follow-through or recovery in the next session.
+- **Energy sell-off**: XLE's decline may reflect softening oil prices or demand concerns — monitor commodity markets.
+- **Breadth**: While 6 of 11 sectors advanced, the magnitude of losses in Tech likely exerted downward pressure on cap-weighted indices.
 
 ---
-*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
+
+*Report generated by Market Analysis Agent. All data sourced from live market feeds. Past performance is not indicative of future results.*
