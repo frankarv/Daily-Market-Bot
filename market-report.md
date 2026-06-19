@@ -1,61 +1,69 @@
 # 📊 Daily Market Analysis Report
-**As of:** May 17, 2026 | 04:35 UTC
+**As of:** June 9, 2026 | 4:11 PM ET
 
 ---
 
 ## 🏦 Major Indices
 
-| Index | Symbol | Close |
-|-------|--------|-------|
-| S&P 500 | ^GSPC | 7,408.50 |
-| Nasdaq 100 | ^NDX | 29,125.20 |
-| Dow Jones Industrial Avg | ^DJI | 49,526.17 |
-| Russell 2000 | ^RUT | 2,793.30 |
+| Index | Symbol | Closing Price |
+|---|---|---|
+| S&P 500 | ^GSPC | 7,296.47 |
+| Nasdaq 100 | ^NDX | 28,586.37 |
+| Dow Jones Industrial Average | ^DJI | 50,492.44 |
+| Russell 2000 | ^RUT | 2,833.75 |
 
 ---
 
-## 🏭 Sector Performance (1-Day % Change)
+## 🗂️ Sector ETF Performance (1-Day % Change)
 
-| Sector | ETF | Change (1D) |
-|--------|-----|-------------|
-| 🟢 Energy | XLE | +2.36% |
-| 🔴 Materials | XLB | -2.65% |
-| 🔴 Utilities | XLU | -2.29% |
-| 🔴 Technology | XLK | -1.81% |
-| 🔴 Consumer Discretionary | XLY | -1.80% |
-| 🔴 Industrials | XLI | -1.78% |
-| 🔴 Real Estate | XLRE | -1.55% |
-| 🔴 Health Care | XLV | -1.04% |
-| 🔴 Communication Services | XLC | -0.88% |
-| 🔴 Consumer Staples | XLP | -0.40% |
-| 🔴 Financials | XLF | -0.37% |
+| Sector | Symbol | 1-Day Change |
+|---|---|---|
+| 🟢 Real Estate | XLRE | +1.96% |
+| 🟢 Consumer Staples | XLP | +1.64% |
+| 🟢 Health Care | XLV | +0.99% |
+| 🟢 Utilities | XLU | +0.92% |
+| 🟢 Financials | XLF | +0.40% |
+| 🟢 Materials | XLB | +0.12% |
+| 🔴 Communication Services | XLC | -0.09% |
+| 🔴 Consumer Discretionary | XLY | -0.16% |
+| 🔴 Industrials | XLI | -0.45% |
+| 🔴 Energy | XLE | -2.41% |
+| 🔴 Technology | XLK | -4.38% |
 
 ---
 
 ## 📝 Analysis & Key Takeaways
 
-### Market Breadth: Broadly Negative
-Today's session reflects **widespread selling pressure** across the market. 10 out of 11 tracked sectors closed in the red, signaling a broad risk-off environment rather than sector-specific weakness.
+### 🔴 Risk-Off Sentiment Dominates Growth Sectors
+Today's session showed a clear **rotation away from growth and risk assets**. Technology (XLK) was the **worst-performing sector**, dropping **-4.38%** — a significant single-day decline that likely weighed on the Nasdaq 100. Energy (XLE) also sold off sharply at **-2.41%**, suggesting potential concerns around commodity demand or macro headwinds.
 
-### ✅ Bright Spot: Energy Leads
-- **Energy (XLE)** was the sole outperformer, gaining **+2.36%**, suggesting strength in oil & gas or commodity prices driving sector optimism.
+### 🟢 Defensive Sectors Lead the Day
+Investors appeared to seek shelter in **defensive and yield-sensitive sectors**:
+- **Real Estate (XLRE)** led all sectors with a gain of **+1.96%**, benefiting from potential rate-sensitive positioning.
+- **Consumer Staples (XLP)** rose **+1.64%**, reflecting a preference for non-cyclical, stable earnings.
+- **Health Care (XLV)** and **Utilities (XLU)** both posted gains near **+1%**, reinforcing the defensive tilt.
 
-### ⚠️ Biggest Laggards
-- **Materials (XLB)** led declines at **-2.65%**, possibly reflecting concerns around global demand or commodity input costs.
-- **Utilities (XLU)** fell **-2.29%**, unusual for a typically defensive sector — this may indicate rising rate expectations weighing on yield-sensitive assets.
-- **Technology (XLK)** and **Consumer Discretionary (XLY)** both dropped nearly **-1.80%**, pointing to continued pressure on growth-oriented and discretionary spending stocks.
+### ⚖️ Rotation Theme
+The day's sector performance paints a classic **defensive rotation** narrative:
+- **Winners:** Real Estate, Staples, Health Care, Utilities — traditionally lower-beta, income-oriented sectors.
+- **Losers:** Technology, Energy, Industrials — higher-beta, cyclical sectors.
 
-### 🏦 Defensive Sectors Offered Limited Protection
-- **Consumer Staples (XLP, -0.40%)** and **Financials (XLF, -0.37%)** held up relatively better but still finished in negative territory, suggesting limited safe-haven demand even in traditional defensives.
+This pattern often signals **investor caution** regarding near-term growth prospects or macro uncertainty.
 
-### 📉 Small Caps Under Pressure
-- The **Russell 2000 (^RUT)** at **2,793.30** reflects continued caution toward smaller, more economically-sensitive companies in a risk-off environment.
+### 📌 Sector Scorecard Summary
+| Category | Advancing Sectors | Declining Sectors |
+|---|---|---|
+| Count | 6 | 5 |
+| Best | Real Estate (+1.96%) | Technology (-4.38%) |
+| Worst | Materials (+0.12%) | Communication Services (-0.09%) |
 
 ---
 
-## 🔎 Summary
-
-> Today's market leaned **decisively bearish** across sectors, with Energy as the lone exception. The selling was broad-based, affecting both growth and defensive sectors alike. Investors appear to be in a risk-reduction mode. Watch for macro catalysts — such as inflation data, Fed communications, or geopolitical developments — that could shift the tone in upcoming sessions.
+## ⚠️ Key Risks to Monitor
+- **Technology weakness**: A -4.38% single-day drop in XLK warrants close attention; watch for follow-through or recovery in the next session.
+- **Energy sell-off**: XLE's decline may reflect softening oil prices or demand concerns — monitor commodity markets.
+- **Breadth**: While 6 of 11 sectors advanced, the magnitude of losses in Tech likely exerted downward pressure on cap-weighted indices.
 
 ---
-*Report generated by Market Analysis Agent | Data sourced from live market feeds.*
+
+*Report generated by Market Analysis Agent. All data sourced from live market feeds. Past performance is not indicative of future results.*
